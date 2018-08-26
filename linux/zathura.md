@@ -1,0 +1,14 @@
+= zathura =
+Document viewer
+
+== installation ==
+* pacman -S zathura
+
+== supported documents ==
+* pacman -S zathura-pdf-mupdf
+Supports PDF, ePub, OpenXPS
+
+== shortcuts ==
+* man zathura
+
+
