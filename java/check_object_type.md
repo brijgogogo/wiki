@@ -1,0 +1,4 @@
+if(obj instanceof ClassA)
+{
+
+}

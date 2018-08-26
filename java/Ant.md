@@ -1,0 +1,2 @@
+$ ant -version
+$ ant -projecthelp

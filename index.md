@@ -2,4 +2,8 @@
 
 == OS ==
   * [[linux/overview|Linux]]
-  * [[WindowsOS]]
+  * [[windows/overview|Windows]]
+
+== Programming ==
+  * [[java/index|Java]]
+  * [[dotnet/.net|.NET Framework]]

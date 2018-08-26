@@ -1,0 +1,50 @@
+== .NET Rremoting ==
+%% A framework for objects living in different AppDomain.
+
+= Remoting Object Types =
+* Server Activated Objects
+  * Single call objects
+  %% handles one and only one incoming request at a time, and doesn't hold any
+  %% state information between calls
+  %% A single call object is instantiated with every call, and then eventually
+  %% destroyed by the garbage collector.
+  * Singleton objects
+  %% Single instance of object exists. Can be used in session-less and 
+  %% session-oriented applications
+  %% A singleton object is instantiated by the first call, and statys there
+  %% until the last client releases it
+* Client Activated Objects
+%% a separate instance is created for each client, and remains in existence
+%% until released by the client. Used in highly session-oriented applications.
+
+= Hosting =
+* In .NET exe or managed Windows Service
+* In IIS (exposed as Web Service)
+
+= Object Lifetime =
+%% Lifetime fo objects are managed according to a process called leased-based
+%% lifetime.
+%% A lease is created for every object that also has a reference created outside
+%% its host AppDomain.
+%% Each AppDomain has a lease manager, which periodically checks the status of
+%% all outstanding leases. Each lease has a lease time assiciated with it, and
+%% when this time expires, the lease manager releases the object to be destroyed
+%% by the garbage collector.
+
+
+
+= Channels =
+%% In .NET remoting, a transport mechanish is referred to as channel.
+%% By default, you get two channels: 
+* TCP/IP (with proprietary binary protocol) 
+* HTTP
+
+= Formatters and Serialization =
+%% object to byte stream = serialization
+%% byte to object = deserialization
+%% Software that carries our serialization and deserialization = Formatter
+%% .NET remoting comes with 2 formatters:
+* Binary
+* SOAP
+
+
