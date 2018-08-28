@@ -10,3 +10,4 @@
   * z-shell
   * fish-shell
   * [[batch_scripting/overview|batch_scripting]] link files in overview
+  * [[caches]]
