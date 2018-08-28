@@ -5,7 +5,7 @@
 * create 2 wikis - public (at github) and private (at dropbox) (`WIP`)
 * Learn immutability in C#
 * Learn Reactive Extension in C# (`WIP`)
-* Learn TPL in C#
+* Learn TPL in C# (error handling)
 * Learn Kafka
 
 * [[linux/overview|Linux]]
