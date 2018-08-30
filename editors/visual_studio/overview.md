@@ -16,3 +16,7 @@
 * https://visualstudio.github.com/
 * https://docs.microsoft.com/en-us/visualstudio/
 * https://www.visualstudio.com/en-us/docs/git/overview
+
+== Themes ==
+https://studiostyl.es/
+https://draculatheme.com/visual-studio/
