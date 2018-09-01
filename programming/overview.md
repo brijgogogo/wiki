@@ -11,3 +11,6 @@
   * fish-shell
   * [[batch_scripting/overview|batch_scripting]]
   * [[caches]]
+  * power-shell
+  * azure
+  * [[aws/overview|aws]]
