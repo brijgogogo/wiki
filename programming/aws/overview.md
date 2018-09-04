@@ -13,22 +13,20 @@ A cloud is made up of computer's owned by people/organizations that lease usage 
 AWS is could service offering from Amazon.
 AWS contains Amazon S3 and VPC. VPC contains EC2 and RDS.
 
-* VPC : Virtual Private Cloud : each user has VPC which private to a user. Your own private section of AWS.
-VPC hosts resources like EC2 and RDS.
+* [[vpc]]
 * Amazon EC2 : Elastic Cloud Compute: it is like a virtual computer used primary for its processing power.
 Instance - cpu, ram, hard disk. It is for things that need compute power (processing activity).
 Multiple EC2 instances can be brought up to server need/users.
 Common use: web hosting
 * Amazon RDS : Relational Database Service : database
 Common use: Customer Account Info, Inventory Catalog
-* Amazon S3: Simple Storage Service: storage service
-Common use: Mass storage, Long-term storage
+* [[s3]]
+* [[iam]]
+* [[aws_regions]]
 
 
-AWS has data centers in multiple regions over the world.
-Within a region there are multiple Availability zones for redundancy.
-Within Availability zone, is hardware, where you create VPC.
-
+== steps ==
+* Sign up for AWS
 
 == Sources ==
 * Udemy : AWS Concepts
@@ -37,3 +35,4 @@ Within Availability zone, is hardware, where you create VPC.
 * https://www.lucidchart.com/documents/view/703f6119-4838-4bbb-bc7e-be2fb75e89e5/0
 * https://aws.amazon.com
 * https://aws.amazon.com/free
+* https://aws.amazon.com/documentation/

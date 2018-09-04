@@ -14,3 +14,4 @@
   * power-shell
   * azure
   * [[aws/overview|aws]]
+  * ssh
