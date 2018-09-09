@@ -19,6 +19,7 @@
 * yourcompleteme
 
 = Vim Topics =
+* [[statusline]]
 * [[Code Folding]]
 * [[Searching]]
 * [[vim-navigation]]

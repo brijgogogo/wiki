@@ -15,3 +15,25 @@
   * azure
   * [[aws/overview|aws]]
   * ssh
+  * [[git/overview|git]]
+  * [[kafka/overview|kafka]]
+  * [[powershell/overview|powershell]]
+  * [[oracle/index|Oracle]]
+  * [[angular/overview|angular]]
+  * [[nodejs/overview|nodejs]]
+  * [[typescript/overview|typescript]]
+  * [[development_methods]]
+  * [[golang/overview|golang]]
+  * [[design_patterns/overview|design patterns]]
+  * [[algorithms/overview|algorithms]]
+
+== tools ==
+* [[sql-developer]]
+* [[markdown]]
+
+== rnd ==
+* [[rnd/overview|rnd]]
+
+
+
+https://www.martinkysel.com/codility-permmissingelem-solution/

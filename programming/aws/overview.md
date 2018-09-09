@@ -14,10 +14,7 @@ AWS is could service offering from Amazon.
 AWS contains Amazon S3 and VPC. VPC contains EC2 and RDS.
 
 * [[vpc]]
-* Amazon EC2 : Elastic Cloud Compute: it is like a virtual computer used primary for its processing power.
-Instance - cpu, ram, hard disk. It is for things that need compute power (processing activity).
-Multiple EC2 instances can be brought up to server need/users.
-Common use: web hosting
+* [[ec2]]
 * Amazon RDS : Relational Database Service : database
 Common use: Customer Account Info, Inventory Catalog
 * [[s3]]
