@@ -44,6 +44,8 @@ rc.conf has settings
 * :delete
 * <C-h> : toggle hidden files
 * z : toggle options (like zh = show hidden files)
+* zf or :filter .pdf : to see pdf files
+* :touch : to make a file
 
 == searching / sorting ==
 * / :search

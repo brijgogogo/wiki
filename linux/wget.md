@@ -32,3 +32,7 @@
 DO wget -e robots=off -r --level=0 -nc -np -accept tx  www.url.com/$g
 done
 %% script to download txt files from specific directory in a url
+
+* wget -i file_with_list_of_urls.txt
+* wget -e robots=off -r -A "*.zip,*.pdf" "https://path.com/to/page/with/links"
+download files with specific extensions, from a web url

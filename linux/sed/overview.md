@@ -1,5 +1,11 @@
 = sed =
+A very powerful program that has its own language.
+* [[substitution]]
+
+
+
 * sed -i s/foo/bar/g somefile
+*
 %% To replace all occurrences of foo with bar in a file.
 
 %% The Stream EDitor   sed is used to edit streams of text. It is extremely
@@ -45,3 +51,5 @@ awk with begin and end block. NR prints number of rows
 * ifconfig eth0 | awk -F":" '/HWaddr/{print toupper($3 $4 $5 $6 $7)}'
 *
 
+== sources ==
+http://www.grymoire.com/Unix/Sed.html

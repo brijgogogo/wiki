@@ -1,16 +1,47 @@
 = GIT =
+version control system (VCS)
+source code management (SCM)
 
-https://try.github.io/levels/1/challenges/1
+* [[history]]
+* [[distributed]]
+* [[cofiguration]]
+* [[auto-completion]]
+* [[help]]
+* [[architecture]]
+* [[git-checksum]]
+* [[head-pointer]]
 
-* git config --global user.email "brijgogogo1@gmail.com"
-* git config --global user.name "Brij Sharma"
-%% to set identity of user
-* git config --global user.name
-%% to view value
+* git --version
+* git init
+make git repository
+
+== staging changes ==
+* git add .
+add all changes in current directory
+* git add '*.txt'
+* git add -A
+adds everything
+
+== committing changes ==
+* git commit -m 'message'
+* git commit --amend
+change commit message
+
+
+
+== logs ==
+* git log
+* git log -n 5
+view recent 5 commits
+* git log --since=2018-09-15
+* git log --until=2018-09-15
+* git log --author="Brij"
+* git log --grep="Init"
+
+
 
 * git clone <url>
 
-* git init
 %% To initialize Git in a repository
 
 * git remote -v
@@ -49,15 +80,7 @@ https://try.github.io/levels/1/challenges/1
 %% to see already added changes
 * git diff --stat
 
-* git log
 
-* git add '*.txt'
-
-* git add -A
-%% adds everything
-
-* git add .
-%% add changes in current directory
 
 * git push -u origin master
 %% The name of our remote is origin and the default local branch name is master.
@@ -101,11 +124,6 @@ https://try.github.io/levels/1/challenges/1
 %% that hasn't been merged. You can either add the --force (-f) option or use -D which combines -d -f together into one command.
 
 
-* git config --list
-List settings
 
-* git config user.name
-See a setting
-
-* git commit --amend
-%% change commit message
+https://try.github.io/levels/1/challenges/1
+https://git-scm.com

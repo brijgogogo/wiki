@@ -20,3 +20,4 @@
 * [[tools/overview|tools]]
 * [[work]]
 * [[vocabulary]]
+* [[dublin]]

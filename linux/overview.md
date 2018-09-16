@@ -1,4 +1,4 @@
-== Basic ==
+== basic ==
 * [[users_and_groups]]
 * [[environment_variables]]
 * [[shell_aliases]]
@@ -20,7 +20,6 @@
 * [[i3/index|i3]]
 * [[feh]]
 * [[rofi]]
-
 
 * [[ssh]]
 * [[bashrc_vs_bash_profile]]
@@ -58,7 +57,11 @@
 * [[fun_tools]]
 * [[misc]]
 * [[imagemagick]] : image manipulation utility
-* scrot : screenshot utility
+* [[scrot]] : screenshot utility
+* [[curl]]
+* [[sed/overview|sed]]
+* [[tr]]
+* [[seq]]
 
 == general tasks ==
 * [[cloud_storages]]
@@ -105,9 +108,8 @@ https://dominicm.com/install-video-drivers-on-arch-linux/
 https://github.com/LukeSmithxyz/voidrice
 = Linux Apps =
 
-* Mail Apps - Thunderbird, Evolution
+* Mail Apps - Thunderbird, Evolution, mutt
 * Office Apps - Softmaker Office, Libre Office, MS Office (with Wine)
-* ebook reader : zathura
 * [[zathura]]
 * Terminal Emulators: urxvt
 * Browsers: qutebrowser
@@ -116,6 +118,12 @@ https://github.com/LukeSmithxyz/voidrice
 %% color temparature
 * gpick
 %% color picker
+* tinytinyrss, Liferea
+* livestreamer
+* mpsyt
+* cmus, mpd, ncmpcpp
+* [[ncmpcpp]]
+* dunst (notifications)
 == Internet Search Tools ==
 * ddgr
 * googler
