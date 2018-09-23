@@ -17,4 +17,27 @@ you bid for an instance type
 Preconfigured package required to launch an EC2 instance. Included an operating system, software package and other required settings.
 
 = instance type =
-The CPU (compute power) of your instance
+The CPU (compute power) of your instance. Also includes other hardware.
+instance type components:
+* vCPUs : number of virtual CPUs the instance type uses
+* family: categorizing instance type for what they are optimized for
+* Type: subcategory of family type
+* Memory
+* Instance Storage
+* EBS-Optimized available
+* Network performance
+
+== Elastic Block Store ==
+EBS is storage volume for an EC2 instance.
+
+IOPS: input/Output Operations per second
+
+Root EBS
+Additional EBS (can be detached and attached to another EC2 instance)
+
+
+== snapshot ==
+"image" of an EBS volume that can be stored as a backup of the volume OR used to create a duplicate.
+
+= security groups =
+allow/deny traffic at instance level

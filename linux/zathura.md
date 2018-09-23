@@ -10,5 +10,6 @@ Supports PDF, ePub, OpenXPS
 
 == shortcuts ==
 * man zathura
+* <c-r> : invert colors
 
 

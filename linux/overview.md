@@ -62,6 +62,7 @@
 * [[sed/overview|sed]]
 * [[tr]]
 * [[seq]]
+* [[less]]
 
 == general tasks ==
 * [[cloud_storages]]
@@ -90,7 +91,7 @@ finch
 xrandr
 w3m
 feednix
-zathura : https://pwmt.org/projects/zathura/
+[[zathura]] : https://pwmt.org/projects/zathura/
 urxvt
 midnight commander
 www.meldmerge.com : file diff tool
