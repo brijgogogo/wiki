@@ -26,6 +26,7 @@
   * [[golang/overview|golang]]
   * [[design_patterns/overview|design patterns]]
   * [[algorithms/overview|algorithms]]
+  * [[security/overview|security]]
 
 == tools ==
 * [[sql-developer]]

@@ -5,6 +5,16 @@ File→ Symbol Search Path
 Provide a symbol folder (in my case C:\symbols) and the public server, i.e:
 srv*C:\symbols*http://msdl.microsoft.com/download/symbols;
 
+or:
+.sympath srv*c:\symbolx*https://msdl.microsoft.com/downloads/symbols;
+to set symbol paths
+
+.sympath
+to view symbol paths
+
+.symfix
+fix symbols
+
 File → Open Crash Dump
 
 .reload /f
