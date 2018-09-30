@@ -20,3 +20,12 @@ Ctrl + R and start typing to search for previous commands in history
 Ctrl + R to cycle again
 Ctrl + p and Ctrl + n to get previous and next command from history
 
+Ctrl + L : clear the terminal
+Ctrl + D: logout
+Ctrl + A: go to start of line
+Ctrl + E: go to end of line
+Ctrl + U: delete left of the cursor
+Ctrl + K: delete right of the cursor
+Ctrl + W: delete word on the left
+!!: repeat last command
+Ctrl + Z : stops the current command (resume with fg in foreground or bg in background)

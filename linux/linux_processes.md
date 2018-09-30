@@ -1,5 +1,10 @@
 = Linux Processes =
 
+* idea.sh &
+to start application in background append ampersand [&] to the command:
+
+If you already started the application, press [Ctrl]+[z] in terminal to suspend the application. To allow it to continue running without displahing standard output, type [bg] and press [Enter]. This is referred to as running the application in background.
+
 * ps aux
 %% list running processes
 

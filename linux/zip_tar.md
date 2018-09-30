@@ -28,7 +28,68 @@ for f in *.zip; do unzip -d "${f%*.zip}" "$f"; done
 tar tvf tarball.tar.bz2 (lists contens of a tarball)
 tar xf tarball.tar.xz (unpacks in current directory)
 
+-z : Uncompress the resulting archive with gzip command.
+-x : Extract to disk from the archive.
+-v : Produce verbose output i.e. show progress and file names while extracting files.
+-f data.tar.gz : Read the archive from the specified file called data.tar.gz.
+
 (tarballs = archives)
 
+>tar -zxvf fileName.tar.gz
+
+-z : Uncompress the resulting archive with gzip command.
+-x : Extract to disk from the archive.
+-v : Produce verbose output i.e. show progress and file names while extracting files.
+-f data.tar.gz : Read the archive from the specified file called data.tar.gz.
+
+>tar -zxvf data.tar.gz -C /data/projects
+
+By defaults files will be extracted into the current directory.
+To change the directory use -C option. In this example, extract files in /data/projects directory.
+
+>tar -tzvf data.tar.gz
+
+To view a detailed table of contents (list all files) for this archive.
+
+>tar -zcvf newFile.tar.gz folderToCompress
+(use gzip format)
+
+>tar -jcvf newFile.tar.bz2 folderToCompress
+(use bzip2)
+
+>tar -cvf newTarFile.tar folder/
+(creates a archive file for a folder)
+
+>tar -xvf archiveFile.tar
+(to unarchive tar file)
+
+>tar -tvf archiveFile.tar
+(view contents)
+
+>tar -rvf archiveFile.tar docToAdd.txt
+(add another file to existing tar file)
+
+GZIP (faster)
+BZIP2 (takes less space)
+
+>gzip file1 file2 file3
+(compresses files)
+
+>gzip -d file1.gz (or)
+>gunzip file.gz
+(uncompresses files)
+
+
+>bzip2 file1 file2 file3
+(compresses file)
+
+>bunzip2 file.bz2
+(uncompresses file)
+
+
+>sudo apt-get install p7zip-full
+> 7z x file.7z
+
+We can use Archive Manager as a GUI tool.
 
 

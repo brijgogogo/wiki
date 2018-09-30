@@ -49,20 +49,8 @@ adds and commits in one go. It doesn't include untracked and deleted files.
 
 
 
+* [[branches]]
 == branches ==
-Default branch is called master.
-* git branch
-%% lists all branches on your local machine
-
-* git branch <name>
-%% Create a branch
-
-* git checkout <name>
-%% switches to an existing branch
-
-* git checkout -b <name>
-%% create a new branch and immediately switch to it.
-
 * git merge <branch>
 %% Merge another branch into current branch
 

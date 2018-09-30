@@ -9,3 +9,7 @@
 search a file in current folder and subfolders
 * where mage.exe
 same as locate in Linux
+
+* devenv.exe /safemode
+* eventvwr
+*

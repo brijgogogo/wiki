@@ -27,3 +27,9 @@ They contain:
   * if you delete the original file, it will not affect hard link (it is like copy of a file)
   * `ln original_file_name hard_link_name`
   * hard links are not allowed for directories
+
+* stat softLink
+to view details of link
+
+* unlink softLink
+remove the soft link

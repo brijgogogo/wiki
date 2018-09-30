@@ -10,3 +10,15 @@
 
 * diff -q file1 file2 : only tells if files differ
 * diff -s file1 file2 : tells if files are same
+
+
+Command-line utilities
+> diff
+> colordiff
+> wdiff
+
+GUI utilities
+> kompare
+> diffmerge
+> meld
+> diffuse

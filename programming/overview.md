@@ -27,6 +27,7 @@
   * [[design_patterns/overview|design patterns]]
   * [[algorithms/overview|algorithms]]
   * [[security/overview|security]]
+  * [[mongodb/overview|mongodb]]
 
 == tools ==
 * [[sql-developer]]
@@ -35,6 +36,13 @@
 == rnd ==
 * [[rnd/overview|rnd]]
 
-
+== data attributes ==
+Complete
+Thorough
+Accurate
+Timely
+Contextually appropriate
+Usably formatted
+Easily accessible
 
 https://www.martinkysel.com/codility-permmissingelem-solution/

@@ -32,6 +32,33 @@ r: 4
 w: 2
 x: 1
 
+* chmod <who>=<permissions> <filename>
+who:
+u: user who owns the file
+g: group the file belongs to
+o: other users
+a: all of the above
+permissions: r, w, x
+- chmod o=r file.ext
+others will have only read permission
+- chmod g= file.ext
+take away all permission of group
+- chmod og=rw file.ext
+grant read and write for everyone
+- chmod go-w file.ext
+take away write permission for group and others
+- chmod a+wx file.txt
+grant write and execute to all
+- chmod ug=o file.ext
+u and g will be assigned permissions of others
+- chmod u+s summarize
+-rwsr-xr-x steve sales summarize
+-rw------- steve sales customer.dat
+
+when any user other than steve executes summarize file, they will have permission to execute it. During execution summarize tries to access customer.data, steve's user id will be used to access it.
+(http://catcode.com/teachmod/setuid.html)
+- chmod 754 file.ext
+
 == owernership ==
 * chown root /u
 Change the owner of /u to "root".
@@ -40,3 +67,6 @@ Likewise, but also change its group to "staff".
 Here root:staff is user:group (seen from ls -la)
 * chown -hR root /u
 Change the owner of /u and subfiles to "root".
+* chown :<group> <file>
+change only group
+*

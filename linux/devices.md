@@ -2,15 +2,14 @@
 * mount
 * mount | column -t
 * mount | grep /dev/sd
-%% see the mounted devices
+see the mounted devices
 * lsblk
-%% lists out the block devices (mounted or not)
-%% https://wiki.archlinux.org/index.php/Persistent_block_device_naming
+lists out the block devices (mounted or not)
+https://wiki.archlinux.org/index.php/Persistent_block_device_naming
 * lsblk -f
 %% view persistent schemes
-* df
-%% to show all the volumes
-%% -h for human readable
+* df -h
+show details of mounted file systems
 * lspci
 %% lists PCI devices
 * lspci -v
@@ -18,9 +17,10 @@
 * lspci -vvv
 
 * lsusb
-%% list the usb devices
+list the usb devices
 
 * fdisk -l
+show details of file systems
 
 == Mounting Devices ==
 * mount /dev/sdb1 /run/media/vik/usb1

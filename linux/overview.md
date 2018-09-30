@@ -12,6 +12,7 @@
 * [[linux_graphics]]
 * [[linux_sound]]
 * [[linux_media]]
+* [[memory]]
 
 * [[custom_prompt]]
 * [[blogs]]
@@ -20,6 +21,7 @@
 * [[i3/index|i3]]
 * [[feh]]
 * [[rofi]]
+* [[ls]]
 
 * [[ssh]]
 * [[bashrc_vs_bash_profile]]
@@ -63,6 +65,7 @@
 * [[tr]]
 * [[seq]]
 * [[less]]
+* [[checksum]]
 
 == general tasks ==
 * [[cloud_storages]]
@@ -125,9 +128,10 @@ https://github.com/LukeSmithxyz/voidrice
 * cmus, mpd, ncmpcpp
 * [[ncmpcpp]]
 * dunst (notifications)
+
 == Internet Search Tools ==
 * ddgr
-* googler
+* [[googler]]
 * [[buku]]
 
 = os =
