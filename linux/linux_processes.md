@@ -1,27 +1,61 @@
 = Linux Processes =
 
+== running process in background ==
 * idea.sh &
 to start application in background append ampersand [&] to the command:
 
 If you already started the application, press [Ctrl]+[z] in terminal to suspend the application. To allow it to continue running without displahing standard output, type [bg] and press [Enter]. This is referred to as running the application in background.
 
+== searching process ==
+* ps l
+see all running processes
 * ps aux
-%% list running processes
-
+list running processes
+number listed in second column is PID
 * ps auxf
-
+* ps aux | grep firefox
+search processes with firefox text
+* pgrep firefox
+returns PID of firefox process ordered chronologically
 * ps aux | sort -nk +4 | tail
-%% display top 10 running processes sorted by memory usage
-%% sorted by 4th field of output returned by ps
-
+display top 10 running processes sorted by memory usage
+sorted by 4th field of output returned by ps
 * use top/htop to see resource usage
 
-* kill -KILL 12345
-%% kill a process by process id
-%% (use -KILL if it refuses to die)
+== killing process ==
+* kill [PID]
+kill a process by process id
+Without options, kill sends SIGTERM to the PID specified and asks the application or service to shut itself down.
+The following examples all send the SIGKILL signal to the PID specified:
+kill -s KILL [PID]
+kill -KILL [PID]
 
-* killall python
-%% will kill all programs with given name
+* killall [process_name]
+will kill all programs with given name
+Without additional arguments, killall sends SIGTERM, or signal number 15, which terminates running processes that match the name specified. You may specify a different signal using the -s option as follows:
+* killall -s 9 [process name]
+This sends the SIGKILL signal which is more successful at ending a particularly unruly processes. You may also specify signals in one of the following formats:
+* killall -KILL [process name]
+* killall -SIGKILL [process name]
+* killall -9 [process name]
+* killall -w irssi
+Adding the -w option to a killall command causes killall to wait until the process terminates before exiting.
+
+== System Signals ==
+The kill command does not terminate a process directly. Rather, a signal is sent to the process where the process will have instructions to follow if it receives a given signal. The man pages provide further reference of all available signals:
+man 7 signal
+
+To simply list all available signals without their descriptions:
+* kill -l
+* killall -l
+
+If you need to convert a signal name into a signal number, or a signal number into a signal name, use the following as examples:
+* kill -l 9
+KILL
+* kill -l kill
+9
+
+
 
 * kill -HUP
 %% reload process
@@ -41,18 +75,6 @@ If you already started the application, press [Ctrl]+[z] in terminal to suspend 
 %% list the open files that the process has
 * kill 1234
 * killall -v process
-= PS =
-
-* ps l
-%% see all running processes
-
-* ps aux
-* ps aux | grep firefox
-%% search processes with firefox text
-
-* pgrep firefox
-%% returns PID of firefox process ordered chronologically
-
 * kill -9 1234
 %% kills the process by PID
 

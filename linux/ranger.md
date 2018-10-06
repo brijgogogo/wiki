@@ -119,3 +119,4 @@ https://wiki.archlinux.org/index.php/Ranger
 https://github.com/ranger/ranger/wiki/Image-Previews
 https://ihommani.github.io/ranger.html
 https://github.com/ranger/ranger/wiki/Official-user-guide
+http://ranger.nongnu.org/cheatsheet.png

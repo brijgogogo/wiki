@@ -28,6 +28,7 @@
   * [[algorithms/overview|algorithms]]
   * [[security/overview|security]]
   * [[mongodb/overview|mongodb]]
+  * [[wordpress/overview|wordpress]]
 
 == tools ==
 * [[sql-developer]]

@@ -11,6 +11,9 @@ CAT shows the file content in the terminal itself, LESS opens it in its own prog
 * f = <space>
 * / : search
 * q : quit
+* -N : display line numbers
+* ng : jump to line number n, default first line
+* nG : jump to line number n, default last line
 
 * head <filename>
 * head -20 <filename>

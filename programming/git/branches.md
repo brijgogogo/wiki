@@ -59,3 +59,50 @@ export PS1='\W$(__git_ps1 "(%s")) > '
 put it inside import of git completion script
 
 In Windows, put export statement in .bashrc in user directory.
+
+== merging branches ==
+* git merge [branch_name]
+merge the specified branch into current branch
+* git branch --merged
+to show merged branches (check same in comparing branches)
+* git log [branch_name] --oneline -3
+
+fast-forward merges: HEAD pointer starts pointing to the SHA from branch being merged. It just moves forward from where it was.
+
+* git merge --no-ff branch
+don't do fast-forward merge, make a new commit
+* git mrege --ff-only branch
+do only fast-forward merge. If fast-forward merge is not possible, abort.
+
+== merge conflict ==
+occurs when after the branch is made, changes occur in same file and same line in both branches.
+
+Once conflic occurs, we go into MERGING state:
+
+resolving conflicts:
+1. abort merge
+git merge --abort
+2. resolve conflicts manually
+<<<<<<<< HEAD
+========
+>>>>>>>> branch_name
+git add file.ext
+git commit
+No need of message as it was already in the middle of merge
+3. use a merge tool
+git mergetool --tool=<your_merge_tool>
+you can add merge tool to your config as well.
+
+= strategies to reduce merge conflicts =
+* keep lines short
+* keep commits small and focused
+* beware stray edits to whitespace (spaces, tabs, line returns)
+* merge often
+* track changes to master (merge critical changes from master into your branch)
+
+
+
+
+
+
+

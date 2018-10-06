@@ -66,6 +66,8 @@
 * [[seq]]
 * [[less]]
 * [[checksum]]
+* [[top]]
+* sort, uniq
 
 == general tasks ==
 * [[cloud_storages]]
