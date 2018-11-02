@@ -39,6 +39,7 @@ use below when getting "target is busy"
 * mkfs.ext4 /dev/sdb1
 %% format using ext4 file system
 * mkfs.vfat -n 'name_for_your_pendrive' -I /dev/sdb1
+* mkfs.fat -F32 /dev/sdb2
 
 
 == Make Bootable USB ==

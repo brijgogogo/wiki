@@ -1,4 +1,6 @@
 = .NET Frameworks =
+* [[.net_flavors]]
+
 * [[dot_net_framework|.NET Framework]]
 * [[xamarin|Xamarin]]
 * [[.net_core|.NET Core]]

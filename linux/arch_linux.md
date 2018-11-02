@@ -4,6 +4,7 @@
 [[arch_linux_installation]]
 
 
+== using Arch ==
 * [[arch_gui]]
 * [[arch_services]]
 * [[arch_power_management]]

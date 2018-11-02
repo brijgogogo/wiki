@@ -4,6 +4,7 @@ With .NET Core SDK, a CLI tool named `dotnet` is installed.
 
 - `dotnet --help`
 - `dotnet new help`
+- dotnet new --help
 
 - `dotnet new console`: creates a new console application project
 - `dotnet new classlib`: creates a new assembly library project
@@ -33,3 +34,10 @@ executed by .NET Core's virtual machine, known as the `CoreCLR`.
 At runtime, the CoreCLR loads the IL code from the assembly, JIT
 (just-in-time) compiles it into native CPU instructions, and then it is
 executed by the CPU on your machine.
+
+== examples ==
+* dotnet new mvc -lang C# -n MyMvcApp
+* dotnet build
+* dotnet run (builds and runs)
+
+* dotnet add package <packageName>

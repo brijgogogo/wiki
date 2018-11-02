@@ -29,6 +29,9 @@
   * [[security/overview|security]]
   * [[mongodb/overview|mongodb]]
   * [[wordpress/overview|wordpress]]
+  * [[python/overview|python]]
+  * [[php]]
+  *
 
 == tools ==
 * [[sql-developer]]

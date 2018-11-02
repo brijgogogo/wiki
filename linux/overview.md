@@ -44,6 +44,7 @@
 * [[dot_files_examples]]
 
 == Tools ==
+* [[my_tools]]
 * [[ranger]]
 * [[diff]]
 * [[rtorrent]]

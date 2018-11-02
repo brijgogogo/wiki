@@ -13,6 +13,7 @@ Show system units  (or systemctl list-units)
 `systemctl status "service-name.service"`
 `systemctl --failed`
 `systemctl show --property=UnitPath`
+* systemctl list-unit-files
 
 Units can be, for example, services (.service), mount points (.mount), devices
 (.device) or sockets (.socket).

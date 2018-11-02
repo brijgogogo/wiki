@@ -65,6 +65,12 @@
 * [[vim-plug]]
 
 
+:py print 2*2
+
+
+* [[.net_in_vim]]
+
+
 bestofvim.com
 reddit.com/r/vim
 http://learnvimscriptthehardway.stevelosh.com/

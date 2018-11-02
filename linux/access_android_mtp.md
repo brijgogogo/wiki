@@ -3,6 +3,7 @@
 == jmtpfs ==
 * mkdir /tmp/myphone
 * jmtpfs /tmp/myphone
+
 * ls /tmp/myphone
 * fusermount -u /tmp/myphone
 

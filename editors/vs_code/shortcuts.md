@@ -17,6 +17,8 @@
 * <c-f> : find
 * <c-h> : replace
 
+* <c-\> : split editor
+
 * <c-space> : trigger suggestion
 * <c-shift-space> : trigger parameter hints
 * F12 : go to definition

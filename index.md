@@ -7,6 +7,7 @@
 * Learn Reactive Extension in C# (`WIP`)
 * Learn TPL in C# (error handling)
 * Learn Kafka
+* Configure mouse buttons for Arch Linux
 
 * [[linux/overview|Linux]]
 * [[windows/overview|Windows]]
@@ -23,3 +24,8 @@
 * [[dublin]]
 * [[productivity]]
 * [[travel]]
+* [[maths/overview|maths]]
+
++91-9689337555
+411015
+

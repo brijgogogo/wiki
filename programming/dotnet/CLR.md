@@ -9,6 +9,16 @@ The container for managed code is called an `assembly` or `portable executable`.
 
 A program can query its own metadata (`reflection`) and even generate new IL at runtime (`reflection.emit`).
 
+A compiler for a .NET programming language generates Intermediate Language (IL) code. The IL code looks like object-oriented machine code and can be checked by using the tool ildasm.exe to open DLL or EXE files that contain .NET code. The CLR contains a just-in-time (JIT) compiler that generates native code out of the IL code when the program starts to run.
+
+IL code is also known as  managed code.
+
+Parts of CLR:
+* Garbage Collector (GC)
+* Code access security (what code is allowed to do)
+* debugger
+* threading facility: create threads on the underlying platform
+
 Tools for IL:
 * ildasm
 * ILSpy
