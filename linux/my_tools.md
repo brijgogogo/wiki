@@ -9,3 +9,8 @@
 * xchm
 * gotop
 * zathura, zathura-pdf-mupdf, zathura-djvu
+* rsync
+* rclone (for dropbox, google drive, etc.)
+* calibre
+* xclip
+* diff, meld

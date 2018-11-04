@@ -18,7 +18,6 @@
 * [[blogs]]
 * [[linux_partitions|Partitions]]
 
-* [[i3/index|i3]]
 * [[feh]]
 * [[rofi]]
 * [[ls]]
@@ -47,6 +46,7 @@
 * [[my_tools]]
 * [[ranger]]
 * [[diff]]
+* meld
 * [[rtorrent]]
 * [[searching_surce_code]]
 * [[rsync]]
@@ -79,7 +79,8 @@
 == wm/de ==
 * [[xfce]]
 * [[kde]]
-*
+* [[i3/index|i3]]
+
 == package managers ==
 * [[pacman]]
 apps to check
