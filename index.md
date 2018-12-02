@@ -1,5 +1,6 @@
 = my wiki =
 
+`the more i learn, the more i discover how much i don't know - the known unknown`
 = todo =
 * battery low warning i3wm
 * create 2 wikis - public (at github) and private (at dropbox) (`WIP`)
@@ -8,6 +9,7 @@
 * Learn TPL in C# (error handling)
 * Learn Kafka
 * Configure mouse buttons for Arch Linux
+* asciicast
 
 * [[linux/overview|Linux]]
 * [[windows/overview|Windows]]

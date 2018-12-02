@@ -49,6 +49,7 @@
 * [[vim-auto-completion]]
 * [[vim-abbreviations]]
 * [[vim_other_tips]]
+* [[vimdiff]]
 
 * set ft=text
 
@@ -70,13 +71,20 @@
 
 * [[.net_in_vim]]
 
+:messages
+:version
+:e
 
 bestofvim.com
 reddit.com/r/vim
 http://learnvimscriptthehardway.stevelosh.com/
 vimgolf.com
 
+:h todo.txt
+:help user-manual
+
 == Sources ==
 https://statico.github.io/vim3.html
 http://colorswat.ch/vim
 http://vimcasts.org/episodes/packages/
+https://vimways.org/2018/the-power-of-diff/

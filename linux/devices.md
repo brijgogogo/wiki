@@ -64,3 +64,10 @@ press `n` to create add new partition
 * e2label /dev/sdb1 Photos
 * fatlabel /dev/sdb1 Music
 %% Run either of these without giving a label to get existing label.
+
+
+* df -h
+see used/avail space
+* lsblk
+show hardware devices
+

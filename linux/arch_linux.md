@@ -27,6 +27,7 @@
 * [[arch_battery]]
 * xrandr | grep "*" : to find screen resolution
 * xdpyinfo : to find screen resolution
+* [[arch_hdmi]]
 
 = Sources =
 https://wiki.archlinux.org/index.php/systemd

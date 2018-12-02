@@ -14,3 +14,4 @@
 * calibre
 * xclip
 * diff, meld
+* neofetch

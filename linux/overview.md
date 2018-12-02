@@ -14,6 +14,9 @@
 * [[linux_media]]
 * [[memory]]
 
+* [[cpu_memory_diagnosing]]
+
+
 * [[custom_prompt]]
 * [[blogs]]
 * [[linux_partitions|Partitions]]

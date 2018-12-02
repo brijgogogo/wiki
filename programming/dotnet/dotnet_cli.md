@@ -11,15 +11,29 @@ With .NET Core SDK, a CLI tool named `dotnet` is installed.
 - `dotnet new web`: creates a new empty ASP.NET Core project
 - `dotnet new mvc`: creates a new ASP.NET Core MVC project
 - `dotnet new webapi`: creates a new ASP.NET Core Web API project
+- `dotnet new xunit`
+- `dotnet new mstest`
+- `dotnet new react`
+- `dotnet new angular`
+
 - `dotnet restore`: downloads dependencies for the project
 - `dotnet build`: compiles the project
 - `dotnet test`: runs unit tests on the project
 - `dotnet run`: runs the project
+- `dotnet publish`: publishes a project for deployment, including the runtime
+- `dotnet clean`: cleans build outputs
 - `dotnet migrate`: migrates a .NET Core project created with the preview CLI
   tools to the current CLI tool MS Build format
 - `dotnet pack`: creates a NuGet package for the project
-- `dotnet publish`: compiles and publishes the project, either with dependencies
     or as a self-contained application
+
+- dotnet sln add/list/remove : add/list/remove projects from a solution
+
+* `dotnet add package <packageName>`: add a package reference
+* `dotnet add reference` : add a project reference
+* `dotnet remove package/reference`
+* `dotnet list`: list references
+*
 
 $ TERM=xterm dotnet build
 %% fix to invalid terminfo error
@@ -40,4 +54,3 @@ executed by the CPU on your machine.
 * dotnet build
 * dotnet run (builds and runs)
 
-* dotnet add package <packageName>
