@@ -16,6 +16,7 @@
 * [[arch_lang_region]]
 * [[arch_file_system]]
 * [[arch_sound]]
+* [[arch_mouse]]
 * screenfetch
 * [[arch_dropbox]]
 * [[xresources]]

@@ -7,6 +7,16 @@ Developed on Electron framework, powered by Microsoft's Monaco Editor and gets i
 
 * [[shortcuts]]
 
+* font ligatures
+https://github.com/tonsky/FiraCode
+pacman -S otf-fira-code
+"editor.fontLigatures": true,
+"editor.fontFamily": "'Fira Code'"
+
+* auto-save
+"files.autoSave": "afterDelay",
+"files.autoSaveDelay": 10000
+
 == sections ==
 1. activity bar:(on left) has 5 views:
 Explorer:manage files
@@ -26,3 +36,11 @@ Extensions
 * c# (Microsoft)
 * vim (vscodevim)
 * Ionide-fsharp
+* prettier (Esben Petersen)
+* settings sync
+* eslint
+
+= sources =
+vscodecandothat.com
+awesome-vscode
+Brian Clark : Youtube

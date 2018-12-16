@@ -1,11 +1,14 @@
 = VS Code shortcuts =
 
 === General ===
-* <C-S-P> : Open command pallete
-* Ctrl+P : quick open/ go to file
-* <C-`> : open integrated terminal
-* Ctrl+, : user settings
-* Ctrl+k, Ctrl+s : show keyboard shortcuts
+* <c-s-p> : Open command pallete
+* <c-p> : quick open/ go to file
+* <c-`> : open integrated terminal
+* <c-,> : user settings
+* <c-k-s>: show keyboard shortcuts
+* <C-s-o> : search symbol
+* <c-+/-> : increase/decrease zoom
+* <c-s-f> : format code
 
 
 * <c-b> : toggle side bar
@@ -18,6 +21,9 @@
 * <c-h> : replace
 
 * <c-\> : split editor
+* <c-2> : open 2nd split editor
+* <c-3> : open 3rd split editor
+* <c-w> : close file/editor
 
 * <c-space> : trigger suggestion
 * <c-shift-space> : trigger parameter hints

@@ -1,9 +1,17 @@
 = Data types =
+Python is dynamically typed language.
+
 * Numbers: integers, floating point numbers, complex numbers
 int and long in v2
 In v3, there is no distinction between kinds of integers
 All numbers in Python are immutable objects.
 integers: decimal, binary, octal, hexadecimal
+
+answer = 42
+pi = 3.14159
+answer + pi == 45.14159 # don't worry about conversion!
+int(pi) == 3  # convert float to integer
+float(answer) == 42.0 # convert integer to float
 
 * Sequences
 ordered container of items, indexed by integers
@@ -14,14 +22,6 @@ All sequences are iterables.
 bounded iterable: an iterable that eventually stops yeilding items
 
 strings: sequence of characters
-Strings are immutable.
-v2: byte strings
-v3: Unicode
-Use quote or triple-quote. Quote can be escaped with backslash (\)
-You can use \ to continue string in next line. Or you can use triple-quoted string.
-In triple-quoted string literal, line breaks remain.
-
-raw string: starts with r or R before quote. In raw string, escape sequences are not interpreted.
 
 tuple:immutable ordered sequence of items.
 A tuple with exactly 2 items is known as pair.

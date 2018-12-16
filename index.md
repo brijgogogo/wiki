@@ -10,6 +10,7 @@
 * Learn Kafka
 * Configure mouse buttons for Arch Linux
 * asciicast
+* vim setups: YouCompleteMe, Syntastic, SnipMate, fzf, Fugitive
 
 * [[linux/overview|Linux]]
 * [[windows/overview|Windows]]

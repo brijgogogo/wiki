@@ -21,6 +21,9 @@
 * [[blogs]]
 * [[linux_partitions|Partitions]]
 
+==Arch Linux==
+* [[arch_linux]]
+
 * [[feh]]
 * [[rofi]]
 * [[ls]]
@@ -39,8 +42,6 @@
 
 * ldd /usr/bin/dotnet : see libraries a program is linked to (dependency)
 
-==Arch Linux==
-* [[arch_linux]]
 
 == Examples ==
 * [[dot_files_examples]]

@@ -31,7 +31,7 @@
   * [[wordpress/overview|wordpress]]
   * [[python/overview|python]]
   * [[php]]
-  *
+  * [[azure/overview|azure]]
 
 == tools ==
 * [[sql-developer]]

@@ -2,7 +2,7 @@
 Python was created in the 1990s by Guido van Rossum.
 high-level, dynamic, object-oriented, cross-platform
 
-features
+== features ==
 * interpreted
 * dynamic programming language
 * automatic memory management
@@ -20,6 +20,9 @@ Extension module can be written in Python or lower-level languages to achieve ma
 Python 3 is incompatible with Python 2
 
 
+Python 2 : EOL 2020
+
+
 == development environments: ==
 * IDLE (Python shell) : comes with Python, based on Tkinter GUI toolkit
 sudo pacman -S tk
@@ -32,7 +35,9 @@ extensions: IdleX
 == tools ==
 * Pyflakes
 * PyLint : check style details
-*
+* web frameworks: [[flask]], Django
+* desktop app: Qt
+* package managers: [[pip]]
 
 script : a file that you can run directly
 module: a file that you can import
@@ -50,6 +55,7 @@ python/python.exe (Windows): Python interpretor, compiler
 $ python hello.py
 $ python -h : help
 $ python -V : show version
+$ python --version
 $ python -c "print('hello');"
 $ python
 >>> print('hello world!')
@@ -59,12 +65,35 @@ Terminate with C-Z or C-D
 
 
 
-
+* [[variables]]
+* [[if_statements]]
 * [[data_types]]
+* [[strings]]
+* [[boolean]]
+* [[truthy_and_falsy_value]]
+* [[none]]
+* [[lists]]
+* [[loops]]
+* [[dictionaries]]
+* [[exceptions]]
+* [[functions]]
+* [[file_operations]]
+* [[generator_function]]
+* [[lambda_functions]]
+* [[classes]]
+* [[polymorphism]]
+* [[modules]]
+
 * [[syntax]]
 * [[garbage_collection]]
+* [[functions]]
+* [[comments]]
+* [[decorators]]
 
 * [[python_implementaions]]
+* [[python_virtual_environments]]
+* [[pyinstaller]]
+* [[innosetup]]
 
 isinstane(obj, type)
 

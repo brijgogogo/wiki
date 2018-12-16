@@ -88,3 +88,5 @@ https://statico.github.io/vim3.html
 http://colorswat.ch/vim
 http://vimcasts.org/episodes/packages/
 https://vimways.org/2018/the-power-of-diff/
+https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/
+https://www.blaenkdenum.com/posts/a-simpler-vim-statusline/

@@ -11,6 +11,9 @@ You can start X by runing `xinit` or `startx`
 This will read `~/.xinit.rc` to know what to start
 
 
+* [[xorg]]
+
+
 == installing i3wm ==
 * pacman -S i3-gaps i3status rxvt-unicode dmenu
 * in ~/.xinitrc put `exec i3`

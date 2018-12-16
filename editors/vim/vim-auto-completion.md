@@ -1,5 +1,9 @@
 = Auto Completion =
 
+word completion: default available in vim: <C-N> for next matching work, <C-P> previous
+line completion: default available in vim: <C-X>, <C-L>
+
+
 * Function and mappings for auto-completion using <tab>
 function! InsertTabWrapper()
   let col = col(".") - 1
