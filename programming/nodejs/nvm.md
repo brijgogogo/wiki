@@ -1,5 +1,7 @@
 = nvm =
-Install nvm via the git method as per instructions in nvm github url
+https://github.com/creationix/nvm
+
+sudo pacman -S nvm
 
 
 nvm --version

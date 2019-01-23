@@ -1,4 +1,6 @@
 = urxvt : rxvt-unicode =
+:urxvt:
+
 Customizable via config
 Very lightweight
 Unicode support, transparency (pseudo, true), support for Xft fonts.
@@ -9,7 +11,7 @@ rxvt-unicode is controlled by ~/.Xresources or ~/.Xdefaults
 * pacman -S rxvt-unicode
 
 == reload ==
-* srdb ~/.Xresources
+* xrdb ~/.Xresources
 
 
 == shortcuts ==
@@ -28,8 +30,22 @@ rxvt-unicode is controlled by ~/.Xresources or ~/.Xdefaults
 C-S-+ : to inrease font-size
 C-- : to decrease
 C-= : to reset
-C-? : to see current size
+C-? (hold) : to see current size
+
+
+== Extensions ==
+== Keyboard-select ==
+Search like vi
+* M-Esc : enter selection mode
+
+https://github.com/muennich/urxvt-perls
+
+
+== URVTD ==
+run urxvt daemon for faster urxvt
+http://510x.se/notes/posts/Configuring_and_using_rxvt-unicode/
 
 == Resources ==
+https://wiki.archlinux.org/index.php/Rxvt-unicode/Tips_and_tricks
 https://wiki.archlinux.org/index.php/rxvt-unicode
 http://pod.tst.eu/http://cvs.schmorp.de/rxvt-unicode/doc/rxvt.1.pod

@@ -1,7 +1,14 @@
+= system info =
 * uname : what you are running
 * uname -r : get kernel version
+* uname -a
+* cat /etc/issue
 * free -h
 check free memory
+* uptime
+* who : who is logged in
+* users : who is logged in
+* lslogins -u : known users on the system
 
 * uname -a
 kernel version, OS, hostname, CPU type, etc.

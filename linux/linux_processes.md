@@ -21,6 +21,7 @@ returns PID of firefox process ordered chronologically
 display top 10 running processes sorted by memory usage
 sorted by 4th field of output returned by ps
 * use top/htop to see resource usage
+* ps -aux | grep -v `whoami` : see all processes that are run by you
 
 == killing process ==
 * kill [PID]

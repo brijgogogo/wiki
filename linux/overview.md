@@ -1,11 +1,19 @@
 == basic ==
-* [[users_and_groups]]
-* [[environment_variables]]
+
+* [[../programming/shell_scripting/overview|shell_scripting]]
+* [[variables]]
 * [[shell_aliases]]
-* [[linux_shell]]
+* [[linux_shells]]
+* [[piping_and_redirection]]
+* [[command_substitution]]
+* [[pearls]]
+* [[custom_prompt]]
+* [[commands_and_functions]]
+
+* [[users_and_groups]]
 * [[linux_processes]]
 *[[filesystem| Linux file system, files, navigation, search, links]]
-* [[piping_and_redirection]]
+* [[linux_partitions|Partitions]]
 * [[devices]]
 * [[networks]]
 * [[system_info]]
@@ -14,12 +22,11 @@
 * [[linux_media]]
 * [[memory]]
 
+* [[banner_tools]]
+
 * [[cpu_memory_diagnosing]]
 
-
-* [[custom_prompt]]
 * [[blogs]]
-* [[linux_partitions|Partitions]]
 
 ==Arch Linux==
 * [[arch_linux]]
@@ -29,7 +36,6 @@
 * [[ls]]
 
 * [[ssh]]
-* [[bashrc_vs_bash_profile]]
 * [[terminals]]
 * [[fzf]]
 * [[urlscan]] (instead of urlview)
@@ -79,6 +85,7 @@
 * [[access_android_mtp]]
 * [[tor]]
 * find . -name '*.wiki' -exec sh -c 'mv "$0" "${0%.wiki}.md"' {} \; : rename all *.wiki to *.md
+* [[pdf_tools]]
 
 == wm/de ==
 * [[xfce]]
@@ -118,6 +125,8 @@ Link2 http://links.twibright.com
 https://dominicm.com/force-hard-drives-to-sleep-on-arch-linux/
 https://dominicm.com/install-video-drivers-on-arch-linux/
 https://github.com/LukeSmithxyz/voidrice
+
+
 = Linux Apps =
 
 * Mail Apps - Thunderbird, Evolution, mutt

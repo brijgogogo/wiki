@@ -1,4 +1,5 @@
 = vimwiki =
+:vimwiki:
 
 == Syntax ==
   *bold text*

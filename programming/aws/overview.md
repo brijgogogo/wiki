@@ -1,15 +1,4 @@
 = Amazon Web Services =
-
-A cloud is made up of computer's owned by people/organizations that lease usage of those computers to others.
-
-== Cloud Computing concepts / or benefits of Cloud services ==
-* High Availability : data is available from mutliple places
-* Fault Tolerant : data is backed up, more instances can be invoked if one fails.
-* Scalable : more instances can be created based on need/growth
-* Elastic : instances can be reduced or increased based on need
-
-
-== AWS ==
 AWS is could service offering from Amazon.
 AWS contains Amazon S3 and VPC. VPC contains EC2 and RDS.
 

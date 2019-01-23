@@ -29,3 +29,26 @@ x+=y : modifies the object to which name x is bound when that object has special
 You can also unbind a variable, resetting the name so it no longer holds a reference (del statement).
 unbinds references (does not delete objects)
 
+== constants ==
+a variable whose value does not change throughout a program
+
+it is typically places at the top of the program. There is no way to prevent a constant from being changed.
+
+Convention: all the letters are in uppercase, and separate words are strung together with underscores.
+
+examples:
+COST_PER_KG = 2.00
+
+== scope ==
+scope is the amount of code over which a variable is active
+* global scope: Global variables are created at the top level of a program, in the main code. They maintain their values and are available throughout a program.
+* local scope: local variables are created inside a function. The scope of a local variable ranges from the point where it is first used in a function to the end of that function. Parameter variables are also local variables.
+
+global/local name conflicts:
+when global and local variable names are same, Python assumes that you are using local variables within a function. To tell python that you want to use global variable use global statement:
+def myfun():
+  global v1
+  v1 = v1 + 1
+v1 = 20
+v1()
+print(v1)

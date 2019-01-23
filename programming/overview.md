@@ -13,7 +13,7 @@
   * [[caches]]
   * power-shell
   * azure
-  * [[aws/overview|aws]]
+  * [[cloud/overview|cloud_computing]]
   * ssh
   * [[git/overview|git]]
   * [[kafka/overview|kafka]]
@@ -32,6 +32,11 @@
   * [[python/overview|python]]
   * [[php]]
   * [[azure/overview|azure]]
+  * [[terms]]
+  * [[d3/overview|d3]]
+  * [[web_servers/overview|web_servers]]
+
+
 
 == tools ==
 * [[sql-developer]]

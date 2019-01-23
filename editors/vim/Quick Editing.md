@@ -1,5 +1,4 @@
-Quick Editing commands
-------------------------------------------------------
+= Editing commands =
 https://vimcommands.github.io/
 
 * cs work like ds but replacing the surround instead of deleting them. For instance, ci"' will turn "text" into 'text'
@@ -15,6 +14,7 @@ nnoremap Y y$
 * C change remaining part of line
 * D delete until the end of line
 * ggdG [d]elete entire buffer from [gg] beginning to [G] end
+* d/8<cr>dd : delete from current line to line which has character 8
 
 * Shift + R replace text
 * ~ : toggle case

@@ -1,4 +1,4 @@
-= environment variables =
+= variables =
 A storage location that has a name and a value.
 Can affect how applications are executed
 Are case sensitive.
@@ -8,6 +8,7 @@ Are uppercase by convention
 * printenv : to view all environment variables
 * printevn HOME : get value of an environment variable
 * echo $HOME : same as above
+* echo ${!S*} : enumerate variables that begin with letter S
 
 == creating ==
 * export VAR="value"
@@ -26,3 +27,11 @@ add the export command to initialization file like ~/.bash_profile
 * export TZ="US/Pacific" : changes your time as per specified timezone
 date command uses TZ environment variable, see ENVIRONMENT section in man page
 * PATH : command at prompt are searched at the directories listed in this variable
+* $OLDPWD
+
+= variable expansion =
+Variable expansion is when a command is executed it replaces the variable name
+with the value it contains.
+
+example:
+echo $SHELL

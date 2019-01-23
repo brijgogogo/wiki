@@ -1,8 +1,19 @@
 = Searching, Finding and Replacing =
 
+== character search in line ==
+* f[char] : search character in line, ;-> move forward, ,-> move backward
+* F[char]: search character backward in line
+* t[char]: same as f[char], just the cursor is places before the character
+* T[char]: backwards of t[char]
+* :help f, :help t
+
+== pattern search in file/selection ==
 * /search_pattern
 * ?search_pattern %:searches backward
 * & : repeat last substitution command
+* :help /
+* :help ?
+* // or ?? : repeat last search
 
 * /\t : Show all tabs:
 
@@ -12,10 +23,26 @@
 
 * / \+\ze\t : Show spaces before a tab:
 
-* :%s//WON/g : here we have left the content to replace as empty. Vim uses the last searched content to replace.
 
-Ack
--------------------------------
+* :<C-r>/ : inserts last searched word, see :help c_ctrl-r
+https://vimways.org/2018/searches-for-us-newbies/
+
+== regular expression search ==
+* /result\d : search result<number>
+* /re.ult\d : search for re followed by any character
+* /res\wlt\d : search for res followed by a keyword character
+
+== deletion by search ==
+* :g/<search here>/d : delete all lines containing pattern
+* :v/<search here>/d : delete all lines not containing pattern
+* :help :global
+
+== replacing ==
+* :%s//WON/g : replace last searched word
+* :%s/foo/bar/gc : replace in file with confirmation
+* :/searchWordStart/,/searchWordEnd/s/originalWord/newWord/<cr> : replace between two lines, first containing a word and second containing another word
+
+== Ack ==
 :Ack [options] {pattern} [{directories}]
 :Ack <pattern>
 :Ack -i <pattern> (case insensitive search)

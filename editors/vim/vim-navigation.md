@@ -1,6 +1,7 @@
 = Vim Navigation =
 * I : insert at the beginning of line
 * a / A append to next / append to end
+* w : move to start of next word
 * W : to the next space-separated word
 * b, e : to the begin/end of the current word. (B / E for space separated only)
 * nG : jump to line n * <c-o> : jump back

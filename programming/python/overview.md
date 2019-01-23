@@ -95,6 +95,10 @@ Terminate with C-Z or C-D
 * [[pyinstaller]]
 * [[innosetup]]
 
+* [[useful_built_in_functions]]
+* [[constants]]
+
+
 isinstane(obj, type)
 
 * python3 --version
