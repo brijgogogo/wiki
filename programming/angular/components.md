@@ -7,12 +7,33 @@ It is a plain TypeScript class. Properties hold the data for the view and
 methods implement the vehaviour of a view, like what should happen if I click
 a button.
 
+
+`Component =   Template + Class + Metadata`
+
+* Template
+  * view layout
+  * created with html
+  * includes binding and directives
+
+* class
+  * code supporting the view
+  * created with typescript
+  * properties: data
+  * methods: logic
+
+* Metadata
+  * extra data for angular
+  * defined with a decorator
+
+
+== example ==
 import { Component } from '@angular/core';
 
 @Component({
-selector: 'app-root',
-templateUrl: './app.component.html',
-styleUrls: ['./app.component.css']
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  //template: `<div><h1>{{title}}</h1></div>`
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'app works!';

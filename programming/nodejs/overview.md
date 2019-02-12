@@ -2,8 +2,6 @@
 Install via NVM
 * [[nvm]]
 
-* [[yarn]]
-* [[npm]]
 
 
 process.cwd() refers to the directory on which the node command was called

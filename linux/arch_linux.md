@@ -29,6 +29,7 @@
 * xrandr | grep "*" : to find screen resolution
 * xdpyinfo : to find screen resolution
 * [[arch_hdmi]]
+* [[arch_bluetooth_headsets]]
 
 = Sources =
 https://wiki.archlinux.org/index.php/systemd

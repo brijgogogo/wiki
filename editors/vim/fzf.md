@@ -1,6 +1,6 @@
 = fzf =
 
-== Functionalyt from FZF ==
+== Functionalty from FZF ==
 :FZF   : look for files under current directory
 :FZF   : look for file in home directory
 :FZF!  : starts fzf in full screen mode
@@ -12,6 +12,7 @@
 
 == FZF.vim ==
 https://github.com/junegunn/fzf.vim
+* <c-j> or <c-k>: move up down from listed items
 * :Files [Path] : same as :FZF
 * :Buffers   : open buffers
 * :Colors color schemes

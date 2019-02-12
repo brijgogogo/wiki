@@ -3,33 +3,56 @@ Gets installed with node
 
 https://docs.npmjs.com/getting-started/fixing-npm-permissions
 
-* npm install <package>
+== package management ==
+* npm i <package>
 installs package in current directory
+* npm i --save <package>
 * npm install -g <package>
-Installs packages at global level at /usr/lib/node_modules/npm. It requires root priveleges.
-See Arch wiki link for NOdeJS to allow installation at user level.
+* npm i -g npm@5.6.0
+Downgrade (or install specific version) npm
+
+* install == i
+* --save-dev
+make entry in package.json in devDependencies
+* --save
+make entry in package.json
+* -g == --global
+manages packages at global level at /usr/lib/node_modules/npm. It requires root priveleges.
+See Arch wiki link for NodeJS to allow installation at user level.
+
 * npm update <package>
 * npm update -g <package>
 * npm update
 update all local packages
 * npm update -g
 update all global packages
+
 * npm uninstall <package>
 * npm uninstall -g <package>
+
 * npm -g list
 show tree view of globally installed packages
+* npm list -g --depth=0
+List globally installed packages
 * npm list --depth=0
 show only top level packages
 * npm outdated
 show obsolete packages
 
-
-* npm i -g npm@5.6.0
-Downgrade (or install specific version) npm
-* npm list -g --depth=0
-List globally installed packages
+== npm configuration ==
 * npm config get prefix
 Gives install path. Global packages are installed in this path + node_modules
+
+== project management ==
+* npm init
+creates package.json
+The package.json file will represent your project configuration.
+* npm init -y
+yes to all questions
+* npm start
+runs node server.js by default
+* npm test
+short for npm run test
 
 
 == Change Global Package Path ==
@@ -40,3 +63,5 @@ npm config set prefix ~/npm
 export PATH="$PATH:$HOME/npm/bin"
 export NODE_PATH="$NODE_PATH:$HOME/npm/lib/node_modules"
 
+= sources =
+https://stackoverflow.com/questions/22512992/node-js-package-json-main-parameter

@@ -1,10 +1,13 @@
 == Programming ==
-  * [[java/index|Java]]
-  * [[dotnet/.net|.NET Framework]]
-  * [[javascript/overview|Javascript]]
+  * [[java/index|java]]
+  * [[dotnet/.net|.net framework]]
+
+  * [[javascript/overview|javascript]]
+  * [[web_servers/overview|web_servers]]
+  * [[css/overview|css]]
+
   * [[coding_practices]]
   * [[programming_concepts]]
-  * [[reactjs/overview|react]]
   * [[html/overview|html]]
   * [[shell_scripting/overview|shell scripts]]
   * z-shell
@@ -19,9 +22,6 @@
   * [[kafka/overview|kafka]]
   * [[powershell/overview|powershell]]
   * [[oracle/index|Oracle]]
-  * [[angular/overview|angular]]
-  * [[nodejs/overview|nodejs]]
-  * [[typescript/overview|typescript]]
   * [[development_methods]]
   * [[golang/overview|golang]]
   * [[design_patterns/overview|design patterns]]
@@ -33,8 +33,6 @@
   * [[php]]
   * [[azure/overview|azure]]
   * [[terms]]
-  * [[d3/overview|d3]]
-  * [[web_servers/overview|web_servers]]
 
 
 

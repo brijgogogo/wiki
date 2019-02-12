@@ -50,6 +50,7 @@
 * [[vim-abbreviations]]
 * [[vim_other_tips]]
 * [[vimdiff]]
+* [[clipboard]]
 
 * set ft=text
 

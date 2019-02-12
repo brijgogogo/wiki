@@ -1,5 +1,6 @@
 = VS Code =
 Developed on Electron framework, powered by Microsoft's Monaco Editor and gets its intelligence from OmniSharp/Roslyn and TypeScript.
+Visual Studio Code (VS Code) is folder-oriented: you open a folder in VS Code and that folder will be treated like the current “project”.
 
 * yaourt visual-studio-code-bin
 

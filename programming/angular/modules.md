@@ -1,8 +1,12 @@
-= module =
+= angular modules =
+In Angular, modules serve as an encapsulation mechanism for the application building blocks — components, directives, pipes. And while there is no encapsulation for services, modules still act as container where services can be registered.
 
-An Angular application comprises of separate modules which are closely related
-blocks of functionality. Every Angular application has at least one module:
-the root module (mostly named `AppModule`).
+* An Angular application comprises of separate modules which are closely related blocks of functionality.
+* Angular Modules contains angular components, organizes the application into a cohesive blocks of functionality.
+* Every Angular application has at least one module: the root module (mostly named `AppModule`).
+* There can be multiple angular modules in an angular application.
+* Angular Modules are different from ES Modules, which are code files that import or export something, for code reuse.
+
 
 import { BrowserModule } from '@angular/platform-browser'
 import { NgModule } from '@angular/core';
@@ -16,7 +20,7 @@ declarations: [
   AppComponent
 ],
 imports: [
-owserModule,
+BrowserModule,
 FormsModule,
 HttpModule
 ],
@@ -25,15 +29,12 @@ bootstrap: [AppComponent]
 })
 export class AppModule {  }
 
-A `module` is a plain TypeScript class with the @`NgModule` decorator. The
-decorator tells Angular that this class is going to be a module. This
-decorator adds metadata above this class. In the decorator are array
-attributes which Angular looks for in a module class:
+A `module` is a plain TypeScript class with the @`NgModule` decorator. The decorator tells Angular that this class is going to be a module. This decorator adds metadata above this class. In the decorator are array attributes which Angular looks for in a module class:
 
-`declarations` - to declare which components, directives or pipes are in this
-module.
+`declarations` - to declare which components, directives or pipes are in this module.
 
 `imports` - to specify what other modules do we use for this module.
 
 `providers` - to specify any application wide services we want to use.
+
 

@@ -11,6 +11,6 @@ eg.
   babel src -d lib
 
 
-
+= sources =
 https://www.robinwieruch.de/react-eslint-webpack-babel/
-
+http://typescript-react-primer.loyc.net/tutorial-5.html
