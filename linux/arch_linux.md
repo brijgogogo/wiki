@@ -30,6 +30,7 @@
 * xdpyinfo : to find screen resolution
 * [[arch_hdmi]]
 * [[arch_bluetooth_headsets]]
+* [[usb_devices]]
 
 = Sources =
 https://wiki.archlinux.org/index.php/systemd

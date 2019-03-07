@@ -16,6 +16,16 @@
 * [[../typescript/overview|typescript]]
 * flow
 
+== user interface frameworks ==
+* [[../reactjs/overview|react]]
+* [[../angular/overview|angular]]
+* vue.js
+* [[../d3/overview|d3]]
+* mithril
+* jQuery
+* [[web_assembly]]
+* preact
+
 == package managers ==
 * [[../nodejs/yarn|yarn]]
 * [[../nodejs/npm|npm]]
@@ -31,23 +41,12 @@ Jasmine
 Jest
 
 
-== user interface frameworks ==
-* [[../reactjs/overview|react]]
-* [[../angular/overview|angular]]
-* [[angular]]
-* vue.js
-* [[../d3/overview|d3]]
-* mithril
-* jQuery
-* [[web_assembly]]
-* preact
-
 == desktop frameworks ==
 * electron
 * react native
 
 == build & packaging tools ==
-* webpack
+* [[webpack/overview|webpack]]
 * grunt
 * browserify
 * gulp

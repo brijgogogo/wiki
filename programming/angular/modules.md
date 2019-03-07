@@ -37,4 +37,4 @@ A `module` is a plain TypeScript class with the @`NgModule` decorator. The decor
 
 `providers` - to specify any application wide services we want to use.
 
-
+`bootstrap`: which component to start the app with

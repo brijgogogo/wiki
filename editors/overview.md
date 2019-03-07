@@ -7,3 +7,5 @@
 == Online Editors ==
 * c9.io
 * dotnetfiddle.net
+
+https://editorconfig.org

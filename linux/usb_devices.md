@@ -1,0 +1,5 @@
+= usb devices =
+
+* dmesg
+* lsusb
+*

@@ -8,3 +8,6 @@
 
 == css libraries ==
 * bootstrap
+getbootstrap.com
+* font-awesome
+fontawesome.com

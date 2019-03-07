@@ -1,20 +1,4 @@
 = my wiki =
-Courtyard by Marriott Pune Hinjewadi
-Lemon Tree Hotel, Hinjewadi, Pune
-Radisson Blu Pune Hinjawadi
-The Gateway Hotel Hinjewadi Pune
-
-
-Ascendas IT Park
-Akshay - Front Gate - Guest Pass
-Synechron -> P3 -> reception -> Akshay -> Access Card -> ODC
-Machine -> Synechron Network -> Synechron ID -. DK Network
-DK ID -> Pending -> Mobile Number -> Smartphone App -> IT Helpdesk
-NDA
-Passport size photo, aadhaar, pan card
-Reporting time: 2-2:30 PM
-Working hours: 1:30 PM - 10 PM
-
 
 `the more i learn, the more i discover how much i don't know - the known unknown`
 = todo =

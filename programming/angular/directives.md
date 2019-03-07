@@ -8,3 +8,13 @@ textbox automatically grow when it receives focus:
 
 We can also create our custom directives.
 
+
+== structural directives ==
+*  *ngIf - defined in BrowserModule, controls whether the html elment should be added to DOM or not
+   <table *ngIf='products && products.length'>
+   </table>
+*  *ngFor - defined in BrowserModule, repeats the portion of html block in DOM
+   <tr *ngFor='let product of products'>
+      %%<td>{{ product.productName }}</td>
+   </tr>
+

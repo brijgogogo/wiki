@@ -5,15 +5,20 @@ In Angular app main.ts in the starting point.
 
 * [[modules]]
 * [[components]]
+* [[binding]]
 * [[directives]]
 * [[router]]
 * [[services]]
 * [[angular-cli]]
+* [[styles]]
+* [[pipes]]
 
 
 = sources =
 https://angular.io/guide/styleguide
 https://angular.io/guide/npm-packages#feature-packages
+https://angular.io/guide/glossary
+https://angular.io/guide/file-structure
 
 
 == pending ==

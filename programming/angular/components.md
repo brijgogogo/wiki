@@ -25,6 +25,7 @@ a button.
   * extra data for angular
   * defined with a decorator
 
+All components must be declared in the angular module.
 
 == example ==
 import { Component } from '@angular/core';
@@ -45,9 +46,10 @@ export class AppComponent {
 @`Component` is a decorator function that specifies the Angular metadata for the component.
 
 @Component function takes in an object with some attributes.
-`selector`: specifies a css selector for a host html element. When Angular sees an element that matches this css selector, it will create an instance of our component in the host element.
+`selector`: specifies a css selector for a host html element. When Angular sees an element that matches this css selector, it will create an instance of our component in the host element. (also called component directive)
 
-`template`: specifies the html that will be inserted into DOM when component's view is rendered. We can write html here or on in a separate html file and refer to it using `templateUrl`.
+`template`: specifies the html that will be inserted into DOM when component's view is rendered. We can write html here or on in a separate html file and refer to it using `templateUrl`
+
 
 
 == ngOnInit ==
@@ -83,3 +85,20 @@ Angular Property binding (one way)
 
 @Input propName: propType;
 To accept values of a property form outside, it must be marked with `@Input` decorator.
+
+
+* Component Lifecycle
+Create -> Render -> Create and render children -> Process changes -> Destroy
+
+Lifecycle hooks:
+`OnInit`: perform component initialization, retrieve data
+`OnChanges`: Perform action after changes to input properties
+`OnDestroy`: perform cleanup
+
+import { OnInit } from '@angular/core';
+export class DemoComponent implements OnInit {
+  ngOnInit(): void {
+
+  }
+}
+
