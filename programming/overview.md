@@ -2,36 +2,40 @@
   * [[java/index|java]]
   * [[dotnet/.net|.net framework]]
 
+  * [[git/overview|git]]
+
   * [[javascript/overview|javascript]]
   * [[web_servers/overview|web_servers]]
   * [[css/overview|css]]
-
-  * [[coding_practices]]
-  * [[programming_concepts]]
   * [[html/overview|html]]
+
+  * [[continuous_integration]]
+  * [[powershell/overview|powershell]]
+  * [[batch_scripting/overview|batch_scripting]]
   * [[shell_scripting/overview|shell scripts]]
   * z-shell
   * fish-shell
-  * [[batch_scripting/overview|batch_scripting]]
-  * [[caches]]
-  * power-shell
-  * azure
-  * [[cloud/overview|cloud_computing]]
-  * ssh
-  * [[git/overview|git]]
-  * [[kafka/overview|kafka]]
-  * [[powershell/overview|powershell]]
+
+  * [[mongodb/overview|mongodb]]
   * [[oracle/index|Oracle]]
-  * [[development_methods]]
+  * [[caches]]
+
+  * [[cloud/overview|cloud_computing]]
+
+  * [[python/overview|python]]
   * [[golang/overview|golang]]
+  * [[php]]
+
+  * [[development_methods]]
+  * [[coding_practices]]
+  * [[programming_concepts]]
   * [[design_patterns/overview|design patterns]]
   * [[algorithms/overview|algorithms]]
+
+  * ssh
+  * [[kafka/overview|kafka]]
   * [[security/overview|security]]
-  * [[mongodb/overview|mongodb]]
   * [[wordpress/overview|wordpress]]
-  * [[python/overview|python]]
-  * [[php]]
-  * [[azure/overview|azure]]
   * [[terms]]
 
 

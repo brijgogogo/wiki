@@ -1,3 +1,4 @@
+= windows =
 * tasklist
 * taskkill /IM firefox.exe /F
 * taskkill /PID 26356 /F
@@ -13,3 +14,9 @@ same as locate in Linux
 * devenv.exe /safemode
 * eventvwr
 *
+
+
+* sc.exe \\DC01 start spooler
+start spooler service on remote computer DC01
+* tasklist /S DC01
+list tasks running on remote computer DC01
