@@ -9,9 +9,28 @@ Command line port of 7zip
 == zip/unzip ==
 * sudo pacman -Ss zip
 * zip –r filename.zip directory_name
+zip directory
+* zip zipfile.zip file1 file2 file3
+compress files
+* zip -e password.zip file1 file2
+password protected archive
+* vim file.zip
+browse zip archive
+* split -b 5M file1 --verbose
+split file
+* cat zip_file* > joined_file
+join the splitted files
+* zip -T file.zip
+test if zip file is ok
+
 
 * unzip file.zip -d destination_folder
-* unzip -l file.zip (to list files in a zip)
+extract
+* unzip -l file.zip
+view files inside archive
+* unzip file.zip file2
+extract specific file
+
 
 == rar/unrar ==
 > unrar x file.rar
