@@ -3,15 +3,17 @@ Javascript framework  for SPA.
 
 In Angular app main.ts in the starting point.
 
+* [[angular-cli]]
 * [[modules]]
 * [[components]]
 * [[binding]]
 * [[directives]]
 * [[router]]
 * [[services]]
-* [[angular-cli]]
 * [[styles]]
 * [[pipes]]
+* [[nested_components]]
+* [[tree_shaking]]
 
 
 = sources =

@@ -86,19 +86,4 @@ Angular Property binding (one way)
 @Input propName: propType;
 To accept values of a property form outside, it must be marked with `@Input` decorator.
 
-
-* Component Lifecycle
-Create -> Render -> Create and render children -> Process changes -> Destroy
-
-Lifecycle hooks:
-`OnInit`: perform component initialization, retrieve data
-`OnChanges`: Perform action after changes to input properties
-`OnDestroy`: perform cleanup
-
-import { OnInit } from '@angular/core';
-export class DemoComponent implements OnInit {
-  ngOnInit(): void {
-
-  }
-}
-
+* [[component_lifecycle]]
