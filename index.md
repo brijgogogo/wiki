@@ -36,3 +36,10 @@
 +91-9689337555
 411015
 
+- International card: already activated, limit: 10000 USD per financial year, markup charges: atm - 2.5 USD every withdrawal,
+any transaction: 3.5% markup + GST (18%), daily limit: 1250 USD
+- close Petrol card
+- Close Ready Credit: ref no.:
+-
+3210065
+
