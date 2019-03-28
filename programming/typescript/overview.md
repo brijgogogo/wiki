@@ -13,8 +13,12 @@ npm install -g typings
 
 * [[interfaces]]
 * [[accessors]]
+*
 
+* [[type_script_type_definitions]]
 
+# setup a Typescript compiler configuration file tsconfig.json
+./node_modules/.bin/tsc --init
 
 var Id: number = 1;
 var cost: number = 2.33;

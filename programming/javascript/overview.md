@@ -57,6 +57,7 @@ Jest
 * ramda
 * underscore
 * graphql
+* [[rxjs/overview|rxjs]]
 
 == linting utilities ==
 * eslint
