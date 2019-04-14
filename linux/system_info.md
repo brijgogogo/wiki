@@ -3,6 +3,9 @@
 * uname -r : get kernel version
 * uname -a
 * cat /etc/issue
+* cat /proc/version
+* dmesg | grep Linux
+* hostnamectl
 * free -h
 check free memory
 * uptime

@@ -18,6 +18,7 @@ command history is contained in the ~/.bash_history
 sudo for wheel group
 
 * [[user_groups_permissions]]
+* [[groups]]
 
 * sudo su
 Become super user

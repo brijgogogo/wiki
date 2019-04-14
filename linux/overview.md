@@ -45,6 +45,8 @@
 * cat : show contents of file
 * tac : show contents of file in reverse order
 * man -K calendar : search man pages
+* sleep 5
+pauses for 5 seconds
 
 * ldd /usr/bin/dotnet : see libraries a program is linked to (dependency)
 

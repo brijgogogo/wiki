@@ -21,8 +21,6 @@
 * Iterate the Schedule with the Code
 
 
-
-
 * Computer languages influence how you think about a problem
 
 * Language can be used in two ways:
@@ -31,8 +29,29 @@
 `Imperative language` is actually executed, and so can contain statements, control constructs, and the like.
 
 * [[estimating]]
+* use format which can be understood - text
+* master your editor
+* use source code control systems
 
+* Debugging: Fix the Problem, Not the Blame
+Embrace the fact that debugging is just problem solving, and attack it as such
+In the technical arena, you want to concentrate on fixing the problem, not the blame.
+It doesn't really matter whether the bug is your fault or someone else's. It is still your problem.
+- Don't panic
 
+Debugging strategies:
+- visualize data
+- tracing
+- rubber ducking
+- process of elimination
+- don't assume it, prove it
+- is the problem a result or symptom ?
+
+* Learn a Text Manipulation Language - perl, python, sed, awk, shells, tcl
+* write code that writes code
+types of code generators:
+- passive code generator: generate code once, use the result somewhere
+- active code genrator: keep on generating, result is a throwaway
 == source ==
 The Pragmatic Programmer
 

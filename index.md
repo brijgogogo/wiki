@@ -2,6 +2,7 @@
 
 `the more i learn, the more i discover how much i don't know - the known unknown`
 = todo =
+* set time as per Ireland
 * battery low warning i3wm
 * create 2 wikis - public (at github) and private (at dropbox) (`WIP`)
 * Learn immutability in C#
@@ -30,6 +31,7 @@
 * [[travel]]
 * [[maths/overview|maths]]
 * [[blogs/overview|blogs]]
+* [[foods/overview|foods]]
 
 * [[temp/overview|temp]]
 

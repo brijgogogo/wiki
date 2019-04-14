@@ -57,6 +57,15 @@ Move all pdf, epub, azw3 to a loction
 * find . -mtime +30 -type f -exec rm -rf {} \;
 remove files that were modified 30 days ag
 
+* find . -name '*.java' -mtime +7 -print
+files modified in last 7 days
+
+* find . -name '*.java' -mtime +7 -print | xargs grep 'java.awt'
+search java.awt in files modified in last 7 days
+
+*   grep '^import ' *.java | sed -e's/.*import  *//' -e's/;.*$//' | sort -u >list
+find unique packages
+
 * find . -type d -empty -delete
 delete empty directories
 

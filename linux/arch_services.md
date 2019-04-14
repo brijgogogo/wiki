@@ -32,4 +32,6 @@ Systemd uses the systemctl command to manage services.
 1. systemctl status bluetooth
 1. systemctl stop bluetooth
 
+* ystemctl list-units --type=target
+
 

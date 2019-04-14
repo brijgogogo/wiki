@@ -16,6 +16,7 @@
 * [[arch_lang_region]]
 * [[arch_file_system]]
 * [[arch_sound]]
+* [[arch_hdmi|hdmi, xrandr, screen resolution, multiple monitors]]
 * [[arch_mouse]]
 * screenfetch
 * [[arch_dropbox]]
@@ -26,13 +27,12 @@
 * [[arch_ntfs]]
 * [[arch_default_applications]]
 * [[arch_battery]]
-* xrandr | grep "*" : to find screen resolution
-* xdpyinfo : to find screen resolution
-* [[arch_hdmi]]
 * [[arch_bluetooth_headsets]]
 * [[usb_devices]]
+* [[system_info]]
 
 = Sources =
 https://wiki.archlinux.org/index.php/systemd
 https://i.imgur.com/Hokk8sK.jpg
 https://itsfoss.com/best-aur-helpers/
+https://wiki.archlinux.org/index.php/Core_utilities
