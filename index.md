@@ -32,7 +32,7 @@
 * [[maths/overview|maths]]
 * [[blogs/overview|blogs]]
 * [[foods/overview|foods]]
-
+* [[freelancing]]
 * [[temp/overview|temp]]
 
 

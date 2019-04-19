@@ -33,6 +33,7 @@
 * [[design_patterns/overview|design patterns]]
 * [[algorithms/overview|algorithms]]
 * [[programming_tips]]
+* [[programming_jargons]]
 
 * ssh
 * [[kafka/overview|kafka]]

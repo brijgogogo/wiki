@@ -8,6 +8,9 @@
 * ~/.zshrc : configuration setting
 * ~/.zprofile : a script that will run upon login
 
+* bindkey -v
+to enable vi mode in .zshrc
+
 == prompt ==
 * prompt -l
 * prompt <prompt_name>

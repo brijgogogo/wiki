@@ -6,6 +6,9 @@
 * chsh -s /bin/bash.
 * ~/.bashrc : configuration settings
 
+* set -o vi
+enable vi mode
+
 == history ==
 * ~/.bash_history:  contains commands you typed
 * !# : replace # with number of command you want to run

@@ -52,6 +52,17 @@ Debugging strategies:
 types of code generators:
 - passive code generator: generate code once, use the result somewhere
 - active code genrator: keep on generating, result is a throwaway
+
+* You Can't Write Perfect Software
+
+Correct program: one that does no more and no less than it claims to do
+
+* Design with contracts - preconditions, postconditions, invariants
+write shy code, defensive code
+Liskov Substitution Principle: Subclasses must be usable through the base class interface without the need for the user to know the difference.
+
+Assertive Programming
+
 == source ==
 The Pragmatic Programmer
 

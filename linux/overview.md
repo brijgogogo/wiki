@@ -54,9 +54,12 @@ pauses for 5 seconds
 == Examples ==
 * [[dot_files_examples]]
 
+== file managers ==
+* [[ranger]]
+* [[vifm]]
+
 == Tools ==
 * [[my_tools]]
-* [[ranger]]
 * [[diff]]
 * meld
 * [[rtorrent]]
