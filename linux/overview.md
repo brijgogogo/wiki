@@ -62,6 +62,7 @@ pauses for 5 seconds
 * [[my_tools]]
 * [[diff]]
 * meld
+* [[cheat.sh]]
 * [[rtorrent]]
 * [[searching_surce_code]]
 * [[rsync]]
@@ -84,6 +85,8 @@ pauses for 5 seconds
 * [[checksum]]
 * [[top]]
 * sort, uniq
+* [[weather]]
+https://github.com/chubin/awesome-console-services
 
 == general tasks ==
 * [[cloud_storages]]

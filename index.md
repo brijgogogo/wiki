@@ -2,9 +2,9 @@
 
 `the more i learn, the more i discover how much i don't know - the known unknown`
 = todo =
-* set time as per Ireland
+* set up zsh
+* check bash completion in bash
 * battery low warning i3wm
-* create 2 wikis - public (at github) and private (at dropbox) (`WIP`)
 * Learn immutability in C#
 * Learn Reactive Extension in C# (`WIP`)
 * Learn TPL in C# (error handling)

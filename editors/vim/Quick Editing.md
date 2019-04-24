@@ -61,3 +61,12 @@ e.g. Hello <c-r><"> continue writing
 * s/S : substitute char/line
 * D : delete line
 * x/X : delete char under cursor or before it
+
+* cfm
+change till characer m
+* db
+delete back
+* c/ot
+change till ot
+* c6j
+change 6 lines below

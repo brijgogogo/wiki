@@ -6,6 +6,8 @@
 * [[JS_string]]
 * [[decorator]]
 * [[modules]]
+* [[transpilers]]
+* [[singleton]]
 * [[prototype]]
 * [[polyfills]]
 

@@ -63,7 +63,14 @@ Liskov Substitution Principle: Subclasses must be usable through the base class 
 
 Assertive Programming
 
-== source ==
+* Crash early
+It's easy to fall into the "it can't happen" mentality
+A dead program normally does a lot less damage than a crippled one.
+
+* If It Can't Happen, Use Assertions to Ensure That It Won't
+* Use Exceptions for Exceptional Problems
+
+== sources ==
 The Pragmatic Programmer
 
 

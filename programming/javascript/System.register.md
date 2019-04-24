@@ -1,0 +1,2 @@
+= System.register =
+Designed to work with SystemJS module loader

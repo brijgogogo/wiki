@@ -17,6 +17,13 @@
 * endise - ruby
 * sleuth.vim
 * yourcompleteme
+* Repeat.vim
+* SystemCopy
+* TitleCase
+* text-obj wiki
+* replaceWithRegister
+* Commentry
+*
 
 = Vim Topics =
 * [[statusline]]
@@ -91,3 +98,13 @@ http://vimcasts.org/episodes/packages/
 https://vimways.org/2018/the-power-of-diff/
 https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/
 https://www.blaenkdenum.com/posts/a-simpler-vim-statusline/
+
+
+= pending reads =
+https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language
+https://gist.github.com/nifl/1178878
+https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118
+https://medium.com/usevim/stop-the-vim-configuration-madness-c825578bbf3e
+https://medium.com/@mkozlows/why-atom-cant-replace-vim-433852f4b4d1
+https://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/
+
