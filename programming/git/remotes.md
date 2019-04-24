@@ -18,6 +18,11 @@ more info
 * git remote rm <alias>
 remove remote
 
+== changing remote ==
+git remote set-url origin http://git.url
+git push -u origin --all
+git push origin --tags
+
 == pushing changes to remote ==
 * git diff origin/master..master
 * git push -u <alias> <branch>

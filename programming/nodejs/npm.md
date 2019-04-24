@@ -10,6 +10,8 @@ installs package in current directory
 * npm install -g <package>
 * npm i -g npm@5.6.0
 Downgrade (or install specific version) npm
+* npm install --save-exact
+Saved dependencies will be configured with an exact version
 
 * install == i
 * --save-dev
@@ -42,6 +44,8 @@ show obsolete packages
 == npm configuration ==
 * npm config get prefix
 Gives install path. Global packages are installed in this path + node_modules
+* npm cache clean --force
+delete all data out of the cache folder
 
 == project management ==
 * npm init
@@ -53,6 +57,9 @@ yes to all questions
 runs node server.js by default
 * npm test
 short for npm run test
+* npm run <command>
+runs an arbitrary command from a package’s "scripts" object
+If no "command" is provided, it will list the available scripts
 
 
 == Change Global Package Path ==
@@ -63,5 +70,11 @@ npm config set prefix ~/npm
 export PATH="$PATH:$HOME/npm/bin"
 export NODE_PATH="$NODE_PATH:$HOME/npm/lib/node_modules"
 
+* Semantic Versioning
+https://bytearcher.com/articles/semver-explained-why-theres-a-caret-in-my-package-json/
+
+
 = sources =
 https://stackoverflow.com/questions/22512992/node-js-package-json-main-parameter
+https://bytearcher.com/articles/semver-explained-why-theres-a-caret-in-my-package-json/
+https://www.npmjs.com/package/npm-check-updates

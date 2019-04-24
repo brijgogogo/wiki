@@ -10,8 +10,9 @@ File extension: .PS1
 * [[help]]
 * [[cmdlets]]
 * [[aliases]]
+* [[basic_syntax]]
 
-
+* [[useful_scripts]]
 
 == support for external commands ==
 You can add cmdlets of SQL Server, Exchange Server etc to powershell.
@@ -21,6 +22,9 @@ You can use native commands like ping, grep, etc.
 == sources ==
 https://github.com/PowerShell/PowerShell
 https://docs.microsoft.com/powershell
+https://github.com/Microsoft/console/tree/master/tools/ColorTool
+https://blogs.msdn.microsoft.com/commandline/2017/08/11/introducing-the-windows-console-colortool/
+https://github.com/lukesampson/scoop/wiki/Theming-Powershell
 
 == todo ==
 Visual Studio tools for Powershell

@@ -41,3 +41,6 @@ shows statistics, summary
 * git show --format=oneline HEAD^
 * git ls-tree master
 * git show <tree-ish for file>
+*
+== see changes of a commit ==
+git show <COMMIT>

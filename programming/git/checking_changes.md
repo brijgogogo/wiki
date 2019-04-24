@@ -4,7 +4,7 @@ Lets us know about the difference between working directory, staging index and r
 * git diff
 compare what's in repository (the version that out HEAD pointer is pointing at) vs what's in our working directory
 * git diff fileName.ext
-to see changes not yet staged in a specif file
+to see changes not yet staged in a specific file
 * git diff --staged
 to see all changes staged
 * git diff --cached fileName.ext

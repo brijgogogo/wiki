@@ -31,6 +31,14 @@ create a new branch and immediately switch to it.
 
 you cannot switch to a different branch if you have any uncommitted conflicting changes. This includes modified files, but not untracked files. We can either scrap changes by checking out specific files, or commit changes, or stash changes, which is like a pocket where we save changes for later.
 
+* git push origin <new_branch>
+to push your new branch
+
+* take branch from remote
+git checkout --track origin/branch_name
+from git 1.7 onwards:
+git checkout <branchName>
+
 == comparing branches ==
 * git diff master..<another_branch>
 compare branches
@@ -48,7 +56,14 @@ renames branch
 * git branch -d branch_to_delete
 or --delete
 use -D to force delete
+* git push origin --delete Test_Branch
+To delete Test_Branch from remote as well
 
+== replace-local-branch-with-remote-branch-entirely-in-git ==
+That's as easy as three steps:
+Delete your local branch: git branch -d local_branch
+Fetch the latest remote branch: git fetch origin remote_branch
+Rebuild the local branch based on the remote one: git checkout -b local_branch origin/remote_branch
 
 == show branch on prompt ==
 __git_ps1 is a function in git completion script that gives branch name prompt
@@ -101,8 +116,8 @@ you can add merge tool to your config as well.
 * track changes to master (merge critical changes from master into your branch)
 
 
-
-
-
+== sources ==
+https://nvie.com/posts/a-successful-git-branching-model/
+https://github.com/nvie/git-toolbelt#readme
 
 

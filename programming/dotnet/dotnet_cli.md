@@ -42,7 +42,11 @@ With .NET Core SDK, a CLI tool named dotnet is installed.
 * dotnet add reference : add a project reference
 * dotnet remove package/reference
 * dotnet list: list references
+* dotnet list reference
+list project references in current directory
 - dotnet restore: downloads dependencies for the project
+* dotnet list ./project.csproj reference
+listing project references
 
 *
 

@@ -1,19 +1,38 @@
 == undo changes done at working directory ==
+* git checkout .
+This will revert all local uncommitted changes (should be executed in repo root):
+
+* git checkout [some_dir|file.txt]
+You can also revert uncommitted changes only to particular file or directory:
+restore a file from the index
+
+* git reset --hard HEAD
+Yet another way to revert all uncommitted changes (longer to type, but works from any subdirectory):
+
 * git checkout -- file.ext
 undo the changes done in file.ext in working directory by getting it from repository
 -- means to stay on current branch (we do not want branch)
 `checkout` is used to get branch as well, if folder and branch names are same, then it will get the branch, so to stay in current branch use --
-* git clean -n
-test runs git clean -f
-* git clean -f
-removes anything in working directory that is not in our repository (untracked)
+
+* git clean -fdx
+This will remove all local untracked files, so only git tracked files remain:
+Normally, only files unknown to Git are removed, but if the -x option is specified, ignored files are also removed.
+WARNING: -x will also remove all ignored files, including ones specified by .gitignore! You may want to use -n for preview of files to be deleted.
+If any optional <path>... arguments are given, only those paths are affected.
+-d Remove untracked directories in addition to untracked files.
+-f or --force
+-n or --dry-run
+-x : don't use ignore rules
+-X : remove only ignored files
 
 
-== undo changes done at staging directory ==
+== unstage ==
 * git reset HEAD file.ext
 reset the staging index from repository at HEAD. The staging index gets the file from repository until HEAD.
 It removes the staged file.ext from staging index
 
+* git reset
+This will unstage all files you might have staged with git add:
 
 == undo changes done at repository ==
 * git commit --amend -m 'new message'
@@ -45,3 +64,11 @@ check master HEAD pointer
 * git reset --mixed <full or partial SHA>
 * git reset --hard <full or partial SHA>
 
+
+== untrack ==
+Untrack files already added to git repository based on .gitignore
+git rm -r --cached .
+git add .
+git commit -m '.gitignore fix'
+
+http://www.codeblocq.com/2016/01/Untrack-files-already-added-to-git-repository-based-on-gitignore/

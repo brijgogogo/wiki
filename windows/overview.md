@@ -20,3 +20,7 @@ same as locate in Linux
 start spooler service on remote computer DC01
 * tasklist /S DC01
 list tasks running on remote computer DC01
+
+* [[skype]]
+* [[shortcuts]]
+* [[outlook]]

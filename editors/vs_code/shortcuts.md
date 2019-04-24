@@ -1,5 +1,8 @@
 = VS Code shortcuts =
 
+* C-S-P : Command Palette
+* Ctrl + , : settings
+
 === General ===
 * <c-s-p> : Open command pallete
 * <c-p> : quick open/ go to file
@@ -45,3 +48,25 @@
 * <c-n> : new file
 * <c-o> : open file
 *
+
+= vsvim =
+gc - toggles line comment. For example gcc to toggle line comment for current line and gc2j to toggle line comments for the current line and the next two lines.
+gC - toggles block comment. For example gCi) to comment out everything within parenthesis.
+
+Surround Command	Description
+d s <existing char>	Delete existing surround
+c s <existing char> <desired char>	Change surround existing to desired
+y s <motion> <desired char>	Surround something with something using motion (as in "you surround")
+S <desired char>	Surround when in visual modes (surrounds full selection)
+
+easy motion
+<leader><leader><leader> j	JumpToAnywhere motion; default behavior matches beginning & ending of word, camelCase, after _ and after #
+<leader><leader> j	Start of line forwards
+<leader><leader> k	Start of line backwards
+<leader><leader> s <char>	Search character
+<leader><leader> f <char>	Find character forwards
+<leader><leader> F <char>	Find character backwards
+<leader><leader> t <char>	Til character forwards
+<leader><leader> T <char>	Til character backwards
+<leader><leader> w	Start of word forwards
+<leader><leader> b	Start of word backwards

@@ -22,6 +22,13 @@
 * Dynamic Programming
 * Big O Time & Space
 
+* Semantic Versioning
+https://bytearcher.com/articles/semver-explained-why-theres-a-caret-in-my-package-json/
+
+* Line ending format used in OS
+Windows: CR (Carriage Return \r) and LF (LineFeed \n) pair
+OSX,Linux: LF (LineFeed \n)
+
 https://martinfowler.com/eaaCatalog/lazyLoad.html
 https://en.wikipedia.org/wiki/Fluent_interface
 http://www.csharpindepth.com/articles/general/singleton.aspx
