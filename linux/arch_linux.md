@@ -6,7 +6,7 @@
 
 == using Arch ==
 * [[arch_gui]]
-* [[arch_services]]
+* [[arch_services]] systemd
 * [[arch_power_management]]
 * [[arch_logging]]
 * [[arch_networking]]
@@ -30,6 +30,9 @@
 * [[arch_bluetooth_headsets]]
 * [[usb_devices]]
 * [[system_info]]
+* [[device_manager]] udev
+* [[laptop]]
+* [[notifications]]
 
 = Sources =
 https://wiki.archlinux.org/index.php/systemd

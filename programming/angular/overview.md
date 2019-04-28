@@ -14,6 +14,8 @@ In Angular app main.ts in the starting point.
 * [[pipes]]
 * [[nested_components]]
 * [[tree_shaking]]
+* [[http_requests]]
+* [[routing]]
 
 
 = sources =

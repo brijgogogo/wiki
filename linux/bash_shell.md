@@ -1,4 +1,6 @@
 = bash =
+Bash shell / Bourne-again shell - Brian Fox - 1989
+It was initially written as a replacement for the Bourne shell.
 
 * [[bashrc_vs_bash_profile]]
 
@@ -23,3 +25,7 @@ enable vi mode
 * Esc + . : inserts last argument of last command
 * Esc + * : inserts the auto-completion command line results
 
+= tips =
+* Alt + .
+Insert the last parameter(s) of the preceding command in your current command
+* When executing a script with bash, use the -x option to output the script contents as it's being executed

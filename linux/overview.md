@@ -1,5 +1,9 @@
-== basic ==
+= Linux =
 
+==Arch Linux==
+* [[arch_linux]]
+
+== basic ==
 * [[../programming/shell_scripting/overview|shell_scripting]]
 * [[variables]]
 * [[shell_aliases]]
@@ -28,8 +32,6 @@
 
 * [[blogs]]
 
-==Arch Linux==
-* [[arch_linux]]
 
 * [[feh]]
 * [[rofi]]

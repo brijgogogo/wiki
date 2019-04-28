@@ -24,6 +24,8 @@ launches server, watches files, rebuilds on changes
 * ng generate <schematic> [options]
 schematic: component, class, enum, module, pipe, service, directive, interface, serviceWorker, application, etc.
 * ng generate component <component-name>
+* ng g c subfolder/component-name --flat
+--flat: doesn't generate folder for component
 
 * ng build
 compiles angular app into output directory dist/

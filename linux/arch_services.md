@@ -34,4 +34,5 @@ Systemd uses the systemctl command to manage services.
 
 * ystemctl list-units --type=target
 
-
+= sources =
+https://wiki.archlinux.org/index.php/Systemd

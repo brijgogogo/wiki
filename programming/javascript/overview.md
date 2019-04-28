@@ -10,6 +10,8 @@
 * [[singleton]]
 * [[prototype]]
 * [[polyfills]]
+* [[async_js]] promises, observables
+* obj?.propName : safe navigation operator
 
 * [[../nodejs/overview|nodejs]]
 

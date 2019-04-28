@@ -1,9 +1,19 @@
 = linux shells =
 * echo $SHELL
+find shell currently being used
+* chsl -l
+list installed shell
+* chsl -s path/to/shell
+set your default shell (log out and log in needed)
 
 * [[bash_shell]]
 * [[z_shell]]
 * [[fish_shell]]
+
+bash vs zsh
+- bash is more popular/use/available than zsh
+- zsh offers far superior auto-completion features for file paths, and popular applications, such as git.
+-
 
 
 

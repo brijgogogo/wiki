@@ -1,7 +1,23 @@
 = zsh =
+Z shell - Paul Falstad - 1990
+- interactive shell
+- scripting language interpreter
+- tab completion
+- file globbing
+- spelling correction
+- directory aliases
+- startup/shutdown scripts (zshrc, zlogout, etc)
+- path extensions (cd /u/lo/b<tab> expands to cd  /usr/local/bin)
+- floating point support (not available in bash)
+- support for hash data structures
 
 * pacman -S zsh
 * pacman -S zsh-completions
+
+* [[Oh-My-ZSH]]
+
+* source ~/.zshrc
+reload
 
 * /usr/bin/zsh
 * chsh -s /bin/zsh
@@ -10,6 +26,12 @@
 
 * bindkey -v
 to enable vi mode in .zshrc
+
+* zcalc
+starts calculator
+* prompt -l
+lists prompt themes
+* prompt <prompt_theme_name>
 
 == prompt ==
 * prompt -l
@@ -25,3 +47,6 @@ to enable vi mode in .zshrc
 
 == sources ==
 https://wiki.archlinux.org/index.php/Zsh
+https://www.zsh.org/
+http://reasoniamhere.com/2014/01/11/outrageously-useful-tips-to-master-your-z-shell/
+
