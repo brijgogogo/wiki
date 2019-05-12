@@ -70,6 +70,18 @@ A dead program normally does a lot less damage than a crippled one.
 * If It Can't Happen, Use Assertions to Ensure That It Won't
 * Use Exceptions for Exceptional Problems
 
+* Finish what you start
+the routine that allocates the resource should also free it
+1. Deallocate resources in the opposite order to that in which you allocate them. That way you won't orphan resources if one resource contains references to another.
+2. When allocating the same set of resources in different places in your code, always allocate them in the same order. This will reduce the possibility of deadlock.
+
+* Minimize coupling between modules
+- Law of Demeter for functions: states that any method of an object should call only methods belonging to:
+1. itself
+2. any parameters that were passed in to the method
+3. any objects it created
+4. any directly help component objects
+
 == sources ==
 The Pragmatic Programmer
 

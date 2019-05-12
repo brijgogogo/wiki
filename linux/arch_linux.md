@@ -1,38 +1,45 @@
 = Arch Linux =
 
 == Installation ==
-[[arch_linux_installation]]
+* [[arch_linux_installation]]
 
+== system ==
+* [[arch_services]] systemd
+* [[arch_logging]] journal
+* [[device_manager]] udev
+* [[system_info]]
+* [[systemctl]] reboot, shutdown
+* [[arch_default_applications]]
 
 == using Arch ==
-* [[arch_gui]]
-* [[arch_services]] systemd
-* [[arch_power_management]]
-* [[arch_logging]]
 * [[arch_networking]]
-* [[arch_brightness]]
-* [[arch_my_packages]]
-* [[arch_touchpad]]
-* [[arch_lang_region]]
 * [[arch_file_system]]
+* screenfetch
+* [[arch_dropbox]]
+* [[arch_ntfs]]
+* [[usb_devices]]
+* [[notifications]]
+
+== hardwares ==
 * [[arch_sound]]
 * [[arch_hdmi|hdmi, xrandr, screen resolution, multiple monitors]]
 * [[arch_mouse]]
-* screenfetch
-* [[arch_dropbox]]
-* [[xresources]]
-* [[yaourt]]
-* [[enable_sudo]]
-* [[pacman_conf_changes]]
-* [[arch_ntfs]]
-* [[arch_default_applications]]
 * [[arch_battery]]
 * [[arch_bluetooth_headsets]]
-* [[usb_devices]]
-* [[system_info]]
-* [[device_manager]] udev
+* [[arch_touchpad]]
+* [[arch_brightness]]
 * [[laptop]]
-* [[notifications]]
+
+== xorg / GUI ==
+* [[arch_gui]]
+* [[xresources]]
+
+= common tasks =
+* [[enable_sudo]]
+* [[repo_setup]] pacman, yaourt, AUR
+
+== my packages ==
+* [[arch_my_packages]]
 
 = Sources =
 https://wiki.archlinux.org/index.php/systemd

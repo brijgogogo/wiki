@@ -173,8 +173,9 @@ take backup of /etc/x11/xorg.conf.d/*.conf files
 
 = Sources =
 [[https://wiki.archlinux.org/index.php/Arch_boot_process|Arch Boot Process]]
-* http://www.linusakesson.net/programming/tty/
-* http://www.commandlinefu.com
+http://www.linusakesson.net/programming/tty/
+http://www.commandlinefu.com
+https://www.linuxlinks.com/
 
 == Books ==
 * Linux made Simple

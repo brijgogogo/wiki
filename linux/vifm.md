@@ -1,6 +1,10 @@
 = vifm =
+Vifm is an ncurses based file manager with vi like keybindings.
 has two panes
 remembers location of both panes
+
+* Esc / Ctrl + C
+cancel most operations or clear selected files
 
 == copy, delete, select ==
 * yy
@@ -14,9 +18,11 @@ paste yanked file
 * P
 move yanked file
 * t
-tag current file
+select/tag current file
 * v
-visual mode
+visual mode - select files
+* :invert s
+invert selection
 * mkdir <dir_name>
 * :e
 load file in vi
@@ -93,6 +99,11 @@ hide/show/toggle hidden files
 filter selected files
 * zO
 show filtered files (remove filter)
+* filter /^.*\.(pdf|epub|mobi)$/
+filter multiple file extensions
+* invert
+invert file name filter
+
 
 == commands ==
 * :com
@@ -121,3 +132,4 @@ https://vifm.info/cheatsheets.shtml
 https://wiki.vifm.info/index.php/HOWTOs
 https://wiki.vifm.info/index.php/Utility_scripts
 https://wiki.vifm.info/index.php/Vifm_on_the_Web
+https://vifm.info/manual.shtml

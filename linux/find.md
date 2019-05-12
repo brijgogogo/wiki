@@ -19,6 +19,9 @@ grep [...] file1
 grep [...] file2
 ...
 
+* find . -name "*.pdf" -exec mv {} ../ \;
+move all pdf files in current or any subdirectory to one directory back
+
 * find . \*.txt -type f -exec grep -Hn 'test' {} \+
 \+ : all result lines are concatenated and the command is executed only a single time with all found results as a parameter
 like:

@@ -1,7 +1,7 @@
 = linux shells =
 * echo $SHELL
 find shell currently being used
-* chsl -l
+* chsh -l
 list installed shell
 * chsl -s path/to/shell
 set your default shell (log out and log in needed)

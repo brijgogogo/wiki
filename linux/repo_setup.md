@@ -1,6 +1,7 @@
-= pacman.conf =
+
 
 == Colors in pacman ==
+pacman.conf
 * uncomment below line to enable colors in pacman output
 Color
 
