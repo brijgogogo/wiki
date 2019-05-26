@@ -26,6 +26,7 @@
 * [[golang/overview|golang]]
 * [[php]]
 * [[kotlin/overview|kotlin]]
+* [[ruby/index|ruby]]
 
 * [[development_methods]]
 * [[coding_practices]]
