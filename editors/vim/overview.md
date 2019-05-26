@@ -82,6 +82,8 @@
 :messages
 :version
 :e
+* g + Ctrl + g
+see info of file: number of words, line, etc.
 
 bestofvim.com
 reddit.com/r/vim
@@ -90,6 +92,8 @@ vimgolf.com
 
 :h todo.txt
 :help user-manual
+
+* Ctrl+S : freezes vim (it is scroll-lock in Linux Termial), use Ctrl+Q to unfreeze
 
 == Sources ==
 https://statico.github.io/vim3.html

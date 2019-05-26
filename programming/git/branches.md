@@ -1,43 +1,43 @@
 = git branches =
-* branches are cheap
-don't take lot of space, can be easily deleted
-* one working directory
-same directory where we work
-* fast context switchin
+- branches are cheap, don't take lot of space, can be easily deleted
+- one working directory, same directory where we work
+- fast context switching
 
 
 Default branch is called master.
 HEAD points to the last commit in current branch.
 
-== creating branches ==
+== branch info ==
 * git branch
-list branches
-current branch is marked with asterist
+list branches, current branch is marked with asterisk
+-a to list local and remote branches
 * cat .git/HEAD
 where HEAD is pointing (or which branch is active)
 * ls -la .git/refs/heads
 has all branches
 * cat /git/refs/heads/master
 SHA of master
+* git log --graph --oneline --decorate --all
 
 
+== creating branches ==
 * git branch <branch_name>
 create branch
 * git checkout <branch_name>
 switches to an existing branch
 * git checkout -b <name>
-create a new branch and immediately switch to it.
-* git log --graph --oneline --decorate --all
+create a new branch from current working directory and immediately switch to it.
 
 you cannot switch to a different branch if you have any uncommitted conflicting changes. This includes modified files, but not untracked files. We can either scrap changes by checking out specific files, or commit changes, or stash changes, which is like a pocket where we save changes for later.
 
+* git push --set-upstream origin <branch>
+-u == --set-upstream
 * git push origin <new_branch>
 to push your new branch
 
-* take branch from remote
-git checkout --track origin/branch_name
-from git 1.7 onwards:
-git checkout <branchName>
+* git checkout --track origin/branch_name
+take branch from remote
+from git 1.7 onwards: git checkout <branchName>
 
 == comparing branches ==
 * git diff master..<another_branch>
@@ -53,11 +53,12 @@ to know if current branch contains another branch
 * git branch -m branch_name new_branch_name
 renames branch
 -m = --move
-* git branch -d branch_to_delete
+* git branch -d <branch_name>
 or --delete
 use -D to force delete
-* git push origin --delete Test_Branch
-To delete Test_Branch from remote as well
+deletes local branch
+* git push origin --delete <branch_name>
+To delete <branch_naem> from remote
 
 == replace-local-branch-with-remote-branch-entirely-in-git ==
 That's as easy as three steps:

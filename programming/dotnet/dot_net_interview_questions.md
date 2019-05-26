@@ -1,5 +1,6 @@
 = dotnet interview questions =
 
+* [[q1]] how iterators provide separation of concerns or DRY
 * closures
 * declarative vs imperative programming
 * what is a type ?

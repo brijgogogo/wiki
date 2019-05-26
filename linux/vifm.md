@@ -5,6 +5,8 @@ remembers location of both panes
 
 * Esc / Ctrl + C
 cancel most operations or clear selected files
+* R
+reload view
 
 == copy, delete, select ==
 * yy
@@ -57,6 +59,8 @@ history forward/backward
 toggle between two panes
 * :view
 enable quick view on side pane
+* :sync
+navigates to same panel in other
 * :split
 split horizontally
 * :vsplit

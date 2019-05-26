@@ -19,3 +19,10 @@ number of functions directly invoked by methods of the class
 
 * fork
 create a new copy of existing process or duplicating the existing process,
+
+* idiomatic
+using, containing, or denoting expressions that are natural to a native speaker.
+Using a propety instead of a method feels more idiomatic in C#
+
+* Duck Typing
+The general term for "type checks" that make assumptions about a value's "type" based on its shape (what properties are present) is called "duck typing" -- "If it looks like a duck, and quacks like a duck, it must be a duck".

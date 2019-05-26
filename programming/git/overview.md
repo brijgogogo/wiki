@@ -52,6 +52,9 @@ adds and commits in one go. It doesn't include untracked and deleted files.
 * [[aliases]]
 * [[gui_tools]]
 * [[git_hosting]]
+* git_flow
+* git_modules
+* gitignore
 
 == sources ==
 https://try.github.io/levels/1/challenges/1

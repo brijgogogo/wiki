@@ -26,3 +26,15 @@ vodafone:
 2. Top up with Rs. 200 every year before leaving India.
 
 https://discover.vodafone.in/roaming/things-to-remember?section=consumer
+
+
+== flights ==
+https://www.google.com/flights
+https://www.expedia.ie
+https://www.edreams.com
+https://www.lastminute.ie/flights/
+https://www.gohop.ie/
+https://www.vayama.ie/
+https://www.cheapflights.com/
+https://www.tripadvisor.ie/
+

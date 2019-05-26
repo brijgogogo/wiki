@@ -14,6 +14,7 @@ Steps:
 * [[finding_job]]
 * [[immigration_permit]]
 * [[foreign_exchange]]
+* [[shopping]]
 
 River Liffey divides Dublin into North and South.
 Dublin has postal districts numbered 1 to 24.
