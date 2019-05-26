@@ -39,8 +39,9 @@ http://thedarnedestthing.com/vimwiki%20cheatsheet
 * <S-Tab> : got to previous link
 
 == List Management ==
+- [X] list item
 * <C-Space>
-Toggle checkbox of a item in list
+ convert list item into todo item or Toggle checkbox of a item in list
 * gl<space>
 Remove checkbox (use gL<space> to remove from all siblings)
 * gll

@@ -28,6 +28,8 @@
 * [[kotlin/overview|kotlin]]
 * [[ruby/index|ruby]]
 
+* [[jekyll/index|jekyll]]
+
 * [[development_methods]]
 * [[coding_practices]]
 * [[programming_concepts]]

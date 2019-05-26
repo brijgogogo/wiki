@@ -8,6 +8,10 @@ IRB: interactive ruby shell
 * ruby -v
 * gem -v
 
+* set below in bashrc to make gems available
+PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
+
+
 = RubyGems =
 RubyGems is a package manager for Ruby modules (called gems)
 * gem -v
@@ -19,6 +23,8 @@ get information about a gem
 install a gem
 * gem update
 update all installed gems
+* gem env
+Use gem env to view the current RubyGems environment:
 
 
 
