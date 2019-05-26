@@ -9,5 +9,8 @@ static site generator
 = commands =
 * jekyll new <blog_name>
 * bundle exec jekyll serve
+start website
+* jekyll build
+
 
 https://jekyllrb.com/docs/
