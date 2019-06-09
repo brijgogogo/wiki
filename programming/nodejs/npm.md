@@ -3,6 +3,8 @@ Gets installed with node
 
 https://docs.npmjs.com/getting-started/fixing-npm-permissions
 
+* [[npx]]
+
 == package management ==
 * npm i <package>
 installs package in current directory

@@ -11,6 +11,8 @@ Profiles are stored at `/etc/netctl`
 
 * [[arch-wifi-setup]]
 
+cat /sys/class/net/wlp2s0/operstate
+
 == enable wired connection at boot ==
 ip link
 

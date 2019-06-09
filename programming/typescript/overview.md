@@ -1,15 +1,13 @@
 = Typescript =
-If you want type checking or high-quality code completion (also known as IntelliSense), you’ll want to use TypeScript, a superset of JavaScript (meaning every JavaScript file is also a TypeScript file… ostensibly).
+- type checking
+- supports ES7, JSX, etc
+- outputs to ES5, ES6, etc.
 
 Type script is case sensitive.
 
-TypeScript compiler is a node.js app.
-TypeScript supports both ES7 features and JSX, and its output is ES5 or ES6 code.
+* [[set_up]]
 
-npm install -g typescript
-npm install -g typings
 
-* npm i --save-dev typescript
 
 * [[interfaces]]
 * [[accessors]]

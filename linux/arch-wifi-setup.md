@@ -40,3 +40,11 @@ Asus Aspire E 15
 Broadcom BCM43142 wireless device
 Kernel driver in use: wl
 pacman -S broadcom-wl
+
+
+
+* iw dev wlp2s0
+get info on wireless connection
+
+= sources =
+https://wiki.archlinux.org/index.php/Wireless_network_configuration

@@ -13,6 +13,7 @@
 2. [[promises]]
 3. [[event_emitters]]
 4. [[reactive_programming]]
+5. [[async_functions]]
 
 
 == Promises ==

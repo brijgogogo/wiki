@@ -4,6 +4,8 @@ Instead of handing the continuation of our program to another pary (as in callba
 A promise represents the result of an async operation.
 Calling an async function immediately returns a "promise", which will eventually be either resolved with the result or rejected with an error.
 
+Added in ES2015
+
 # drawbacks
 only ever yield a single value, hence useless for handling recurrent events such as mouse clicks or streams of data coming from the server.
 
@@ -195,6 +197,24 @@ p.then(
 *   Promise.reject(..) creates the rejected promise for the reason value given to it.
 * reject(..)  does not do the unwrapping that  resolve(..)  does. If you pass a
 Promise/thenable value to  reject(..) , that untouched value will be set as the rejection reason. A subsequent rejection handler would receive the actual Promise/thenable you passed to  reject(..) , not its underlying immediate value.
+
+# split callbacks style : then(fulfilled, rejected): one callback for success, other for failure
+
+# error handling
+var p = Promise.resolve( 42 );
+p.then(
+    function fulfilled(msg){
+        // numbers don't have string functions,
+        // so will throw an error
+        console.log( msg.toLowerCase() );
+    }
+)
+.catch( handleErrors );
+
+as we didn't pass rejection/error handler to "then", errors simply propagate to next promise in the chain.
+
+
+
 
 
 

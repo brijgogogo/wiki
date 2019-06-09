@@ -12,5 +12,22 @@ If you curl without any options except for the URL, the content of the URL (whet
 count number of lines
 
 
+= online tools =
+* curl wttr.in
+* curl wttr.in/Delhi
+* curl ifconfig.co
+* curl ifconfig.co/country
+* curl ifconfig.co/city
+* http://tinyurl.com/api-create.php?url=http://www.google.com
+* curl getnews.tech
+* curl getnew.tech/trump
+* curl getnews.tech/cricket+world+cup
+* curl 'dict://dict.org/d:operating system'
+* curl cheat.sh
+* curl cheat.sh/git
+* curl rate.sx
+* curl parrot.live
+*
+
 = sources =
 http://www.compciv.org/recipes/cli/downloading-with-curl/

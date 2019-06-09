@@ -1,6 +1,6 @@
 = Linux =
 
-==Arch Linux==
+== Arch Linux ==
 * [[arch_linux]]
 
 == basic ==
@@ -102,8 +102,7 @@ https://github.com/chubin/awesome-console-services
 * [[kde]]
 * [[i3/index|i3]]
 
-== package managers ==
-* [[pacman]]
+
 apps to check
 --------------------
 gpicview

@@ -11,6 +11,9 @@
 * Edit > Go To > Go To Member
 * C# Interactive
 
+= shortcuts =
+* Ctrl : makes intellisense popup transparent
+
 == Resources ==
 * https://blogs.msdn.microsoft.com/visualstudio/
 * https://visualstudio.github.com/

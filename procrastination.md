@@ -19,4 +19,14 @@ The habit of puting off or delaying, especially something requiring immediate at
   - don't get addicted to apps on your smartphone
 
 
+# overcoming procrastination
+- Awareness: know your weaknesses - when you procrastinate
+  - record in journal what you did on a day
+- accept that we are not perfect
+- failure is not fatal
+- aim to do your best and be happy about the output
+- try to develop a healthier lifestyle to get more energy
+- go to bed earlier (read book or go for walk before sleep, eat foot 2-3 hours before sleeping)
+- reduce screen time before bedtime
+
 

@@ -1,16 +1,15 @@
-https://raw.githubusercontent.com/mattn/emmet-vim/master/TUTORIAL
+= emmet-vim =
+
 to expand: <c-y>,
 
 html:5
 div>p#foo$*3>a'
 
-= Emmet tricks =
-* content
-* content
 
-# Heading
+* select multiple lines, then <c-y>m : merge lines
 
 
-
+= sources =
+https://raw.githubusercontent.com/mattn/emmet-vim/master/TUTORIAL
 
 

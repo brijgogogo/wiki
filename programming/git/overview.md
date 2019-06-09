@@ -55,6 +55,7 @@ adds and commits in one go. It doesn't include untracked and deleted files.
 * git_flow
 * git_modules
 * gitignore
+* [[submodules]]
 
 == sources ==
 https://try.github.io/levels/1/challenges/1

@@ -3,13 +3,19 @@
 == Installation ==
 * [[arch_linux_installation]]
 
+* [[pacman]]
+* [[yaourt]]
+* [[yay]]
+
 == system ==
-* [[arch_services]] systemd
+* [[arch_services]] systemd, systemctl
 * [[arch_logging]] journal
 * [[device_manager]] udev
 * [[system_info]]
 * [[systemctl]] reboot, shutdown
 * [[arch_default_applications]]
+* [[arch_variables]]
+*
 
 == using Arch ==
 * [[arch_networking]]

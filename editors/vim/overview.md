@@ -94,7 +94,7 @@ vimgolf.com
 :help user-manual
 
 * Ctrl+S : freezes vim (it is scroll-lock in Linux Termial), use Ctrl+Q to unfreeze
-
+* Ctrl+V u <FA unicode number >
 == Sources ==
 https://statico.github.io/vim3.html
 http://colorswat.ch/vim
@@ -111,4 +111,7 @@ https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcu
 https://medium.com/usevim/stop-the-vim-configuration-madness-c825578bbf3e
 https://medium.com/@mkozlows/why-atom-cant-replace-vim-433852f4b4d1
 https://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/
+http://docs.emmet.io/customization/snippets/
 
+= pending plugins =
+https://github.com/mattn/webapi-vim

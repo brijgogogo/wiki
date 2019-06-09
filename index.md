@@ -35,7 +35,7 @@
 * [[freelancing]]
 * [[temp/overview|temp]]
 * [[mind_matters]]
-*
+* [[cheatsheets/vim|cheetsheets]]
 https://aonemd.github.io/blog/finding-things-in-vim
 
 +91-9689337555
