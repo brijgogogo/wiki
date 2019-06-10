@@ -1,10 +1,11 @@
-== undo changes done at working directory ==
+= undo changes done at working directory =
 * git checkout .
 This will revert all local uncommitted changes (should be executed in repo root):
 
 * git checkout [some_dir|file.txt]
 You can also revert uncommitted changes only to particular file or directory:
 restore a file from the index
+
 
 * git reset --hard HEAD
 Yet another way to revert all uncommitted changes (longer to type, but works from any subdirectory):
@@ -25,14 +26,18 @@ If any optional <path>... arguments are given, only those paths are affected.
 -x : don't use ignore rules
 -X : remove only ignored files
 
-
 == unstage ==
 * git reset HEAD file.ext
 reset the staging index from repository at HEAD. The staging index gets the file from repository until HEAD.
+remove file from staging area (if not committed)
 It removes the staged file.ext from staging index
 
 * git reset
 This will unstage all files you might have staged with git add:
+
+* git reset HEAD .
+remove everything from staging area (if not committed)
+
 
 == undo changes done at repository ==
 * git commit --amend -m 'new message'

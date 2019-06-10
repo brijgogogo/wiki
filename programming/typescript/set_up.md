@@ -21,6 +21,7 @@ adds tslint.json
 
 
 = sources =
+https://webpack.js.org/guides/typescript/
 https://alligator.io/typescript/new-project/
 
 
