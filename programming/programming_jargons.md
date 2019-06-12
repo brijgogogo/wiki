@@ -26,3 +26,7 @@ Using a propety instead of a method feels more idiomatic in C#
 
 * Duck Typing
 The general term for "type checks" that make assumptions about a value's "type" based on its shape (what properties are present) is called "duck typing" -- "If it looks like a duck, and quacks like a duck, it must be a duck".
+
+* Scaffolding
+scaffolding gives you some kind of a (fast, simplified, temporary) structure for your project, on which you can rely to build the real project.
+It could be db-scripts, models, views, controllers, CRUD, etc.
