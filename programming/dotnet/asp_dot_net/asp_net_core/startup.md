@@ -1,17 +1,12 @@
 = startup =
 
-== example ==
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        BuildWebHost(args).Run();
-    }
-    public static IWebHost BuildWebHost(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-              .UseStartup<Startup>()
-              .Build()
-}
+# Host
+An ASP.NET Core app builds a host on startup. The host is an object that encapsulates all of the app's resources, such as middleware components, logging, DI, configuration, etc.
+
+WebHost.CreateDefaultBuilder(args)
+            .UseStartup<Startup>();
+			.Build()
+			.Run();
 
 WebHost.CreateDefaultBuilder function creates IWebHostBuilder, which allows to pass application configuration inline or use extension methods.
 
@@ -72,3 +67,9 @@ WebHost.CreateDefaultBuilder()
 
 
 
+# Startup class
+- ConfigureServices(IServiceCollection): configure services required by the app
+	Services: components that are used by the app
+
+- Configure(IApplicationBuilder): define request handling pipeline
+	Pipeline is composed as a series of middleware components

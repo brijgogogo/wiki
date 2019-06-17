@@ -1,4 +1,18 @@
 = hosting & deployment =
+Host
+- starts app
+- lifetime management
+
+
+An ASP.NET Core app uses an HTTP server implementation to listen for HTTP requests. The server surfaces requests to the app as a set of request features composed into an HttpContext.
+Servers are responsible for reacting to requests made by clients by passing these requests to the application as HttpContexts.
+
+Servers available:
+- [[kestrel]]
+- IIS HTTP Server - uses IIS - ASP.NET Core app and IIS run in the same process
+- [[HTTP.sys]]
+
+
 
 On Windows
 * IIS
@@ -30,3 +44,5 @@ Other deployment model is self-contained deployment, which has all dependencies.
 aspNetCore IIS handler is responsible for relaying the requests through to the applicaiton (executing dotnet .\YourApp.dll on start)
 
 ASP.NET Core module must be installed in IIS to has requests be relayed to Kestrel.
+
+

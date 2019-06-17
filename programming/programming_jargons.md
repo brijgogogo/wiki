@@ -30,3 +30,6 @@ The general term for "type checks" that make assumptions about a value's "type" 
 * Scaffolding
 scaffolding gives you some kind of a (fast, simplified, temporary) structure for your project, on which you can rely to build the real project.
 It could be db-scripts, models, views, controllers, CRUD, etc.
+
+* Object graph
+object which contains other objects
