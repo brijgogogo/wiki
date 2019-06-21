@@ -3,11 +3,17 @@ The components that are assembled within the application request pipeline are ca
 
 Also called request delegates.
 
-The order in which the request delegates are defined in the order in which they will execute the request, and afterwards response in reverse.
+The order in which the request delegates are defined is the order in which they will execute the request, and afterwards response in reverse.
 
-Built-in middlewares for: authentication, CORS, response caching, compression, routing, sessions, static files, url rewrite.
+Each middleware component in the request pipeline is responsible for invoking the next component in the pipeline or short-circuiting the pipeline.
 
-== example ==
+
+Request delegates can be configured using Run, Map and Use extensions methods.
+The first Run delegate terminates the pipeline
+Chain multiple request delegates together with Use. The "next" paramter represents the next delegate in pipeline. You can short-circuit the pipeline by not calling the "next" parameter.
+
+# example
+// Startup.Configure
 public void Configure(IApplicationBuilder app)
 {
     app.Map("/skip", (skipApp) => skipApp.Run(async (context) =>
@@ -55,6 +61,17 @@ public void Configure(IApplicationBuilder app)
         await context.Response.WriteAsync($"You entered a string: {value}");
     });
 }
+
+= built-in middlewares =
+Built-in middlewares for: authentication, CORS, response caching, compression, routing, sessions, static files, url rewrite.
+
+app.UseExceptionHandler("/Error"); // development environment: app.UseDeveloperExceptionPage(), app.UseDatabaseErrorPage();
+app.UseHsts();
+app.UseHttpsRecirection();
+app.UseCookiePolicy();
+app.UseAuthentication();
+app.UseSession();
+app.UseMvc();
 
 
 == example ==

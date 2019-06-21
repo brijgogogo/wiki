@@ -17,6 +17,7 @@
 * [[windows/overview|Windows]]
 * [[android/overview|Android]]
 * [[programming/overview|programming]]
+* [[networking]]
 * [[editors/overview|editors]]
 * [[browsers/overview|browsers]]
 * [[interview]]
