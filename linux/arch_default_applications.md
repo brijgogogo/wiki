@@ -16,6 +16,9 @@ mupdf.desktop
 * xdg-mime query filetype test.svg
 find mime-type of a file
 
+
+* [[mime_types]]
+
 == sources ==
 https://www.reddit.com/r/linuxquestions/comments/5z3n81/default_applications_in_arch_linux/
 

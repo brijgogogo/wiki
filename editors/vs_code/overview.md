@@ -4,9 +4,14 @@ Visual Studio Code (VS Code) is folder-oriented: you open a folder in VS Code an
 
 * yaourt visual-studio-code-bin
 
+* node works out of the box
+
 * Help > Welcome > Interactive Playground
 
 * [[shortcuts]]
+* [[extensions]]
+
+* type @ in command-pallete to see members of the file (in typescript, etc)
 
 * font ligatures
 https://github.com/tonsky/FiraCode
@@ -33,13 +38,6 @@ Extensions
 == Commands ==
 * ext install
 
-== extensions ==
-* c# (Microsoft)
-* vim (vscodevim)
-* Ionide-fsharp
-* prettier (Esben Petersen)
-* settings sync
-* eslint
 
 * move extensions directory
 mklink /D C:\Users\bsharma\.vscode\extensions c:\dev\.vscode\extensions
