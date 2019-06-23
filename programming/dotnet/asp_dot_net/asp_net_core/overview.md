@@ -8,7 +8,7 @@
 - configuration from files, command line, environment variables, in-memory, encrypted secret stores, ini file
 - logging
 
-== runnting ==
+== running ==
 - dotnet new webapp -o <app_name>
 - dotnet run
 By default, ASP.NET Core binds to:
@@ -30,6 +30,7 @@ By default, ASP.NET Core binds to:
 - [[environments]]
 - [[error_handling]]
 - [[model_binding]]
+- [[http_verb_attributes]]
 
 
 == flavours ==
