@@ -31,6 +31,9 @@ By default, ASP.NET Core binds to:
 - [[error_handling]]
 - [[model_binding]]
 - [[http_verb_attributes]]
+- [[dependency_injection]]
+- [[response_format]]
+
 
 
 == flavours ==
