@@ -8,3 +8,7 @@ gs -q -sPAPERSIZE=a4 -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=logo-conce
 
 * Master PDF Editor
 
+# attachments
+- pdftk  mydoc.pdf  unpack_files
+- pdftk  mydoc.pdf  input_pw  <password>  unpack_files
+

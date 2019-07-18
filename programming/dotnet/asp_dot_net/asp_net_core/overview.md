@@ -17,10 +17,11 @@ By default, ASP.NET Core binds to:
 
 
 == topics ==
+- [[mvc_lifecycle]]
+- [[middleware]]
 - [[startup]]
 - [[endpoints]]
 - [[host]]
-- [[middleware]]
 - [[routing]]
 - [[filters]]
 - [[hosted_services]]
