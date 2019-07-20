@@ -186,7 +186,3 @@ blog/{article:slugify}
 https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/routing
 https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing
 
-
-
-
-

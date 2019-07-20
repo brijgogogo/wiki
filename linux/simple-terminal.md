@@ -1,4 +1,23 @@
 = simple terminal (st) =
 Very mininal
+- supports unicode
 No scrollback buffer
 
+
+suckless softwares: very minimal by default. You can add features to it.
+
+To add features to st, you can install patches.
+
+# install manually
+1. wget https://dl.suckless.org/st/st-0.8.2.tar.gz
+2. tar -xvf <file>
+3. make
+4. sudo make install
+
+# apply patches manually
+1. make clean
+2. patch < patches/some_path.diff
+3. make
+4. sudo make install
+
+https://wiki.archlinux.org/index.php/St

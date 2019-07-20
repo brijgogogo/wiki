@@ -27,6 +27,7 @@ count number of lines
 * curl cheat.sh/git
 * curl rate.sx
 * curl parrot.live
+* curl https://ipapi.co/timezone
 *
 
 = sources =

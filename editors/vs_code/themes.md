@@ -1,0 +1,2 @@
+= themes =
+https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme

@@ -1,5 +1,11 @@
 = Linux =
 
+config todo:
+
+files to link/sync:
+~/.xinitrc
+~/.bash_profile
+
 == Arch Linux ==
 * [[arch_linux]]
 
@@ -27,10 +33,13 @@
 * [[memory]]
 
 * [[banner_tools]]
+* [[media_players]]
 
 * [[cpu_memory_diagnosing]]
 
 * [[blogs]]
+
+* [[usb_operations]]
 
 
 * [[feh]]
@@ -96,6 +105,7 @@ https://github.com/chubin/awesome-console-services
 * [[tor]]
 * find . -name '*.wiki' -exec sh -c 'mv "$0" "${0%.wiki}.md"' {} \; : rename all *.wiki to *.md
 * [[pdf_tools]]
+* [[windows_bootable]]
 
 == wm/de ==
 * [[xfce]]

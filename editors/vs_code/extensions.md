@@ -7,5 +7,6 @@
 * settings sync
 * eslint
 
+https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph
 
 angular snippets: by John Papa and Mikael Morlund

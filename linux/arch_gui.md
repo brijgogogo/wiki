@@ -1,4 +1,39 @@
 = Arch GUI =
+
+= xorg =
+- The X.Org project provides an open source implementation of the X Window System.
+- Xorg (commonly referred as simply X) is the most popular display server among Linux users.
+
+$ pacman -S xorg-server
+
+The Xorg command is usually not run directly, instead the X server is started with either a display manager or xinit.
+
+https://wiki.archlinux.org/index.php/Xorg
+
+= xinit =
+- The xinit program allows a user to manually start an Xorg display server.
+- The startx script is a front-end for xinit.
+- xinit is typically used to start window managers or desktop environments.
+- you can also use xinit to run GUI applications without a window manager
+
+$ pacman -S xorg-xinit
+
+xinit and startx take an optional client program argument. If you do not provide one they will look for ~/.xinitrc to run as a shell script to start up client programs.
+
+https://wiki.archlinux.org/index.php/Xinit
+
+
+Xorg uses a configuration file called xorg.conf and files ending in the suffix .conf for its initial setup.
+
+The /etc/X11/xorg.conf.d/ directory stores host-specific configuration. You are free to add configuration files there, but they must have a .conf suffix.
+
+
+* pacman -S xorg-xev
+print xorg events
+used to identify things like button numbers in mouse, etc
+
+
+== sources ==
 [[linux_graphics]]
 
 == Desktop Environment (DE) vs Windows Manager (WM) ==
@@ -11,13 +46,17 @@ You can start X by runing `xinit` or `startx`
 This will read `~/.xinit.rc` to know what to start
 
 
-* [[xorg]]
+== nvidia ==
+pacman -S nvidia
+pacman -S nvidia-settings
+https://wiki.archlinux.org/index.php/NVIDIA
 
+= i3 =
+https://wiki.archlinux.org/index.php/I3
+$ pacman -S i3-wm
+in ~/.xinitrc add:
+exec i3
 
-== installing i3wm ==
-* pacman -S i3-gaps i3status rxvt-unicode dmenu
-* in ~/.xinitrc put `exec i3`
-* run command `startx` to start X server, it will execute commands in ~/.xinitrc
 
 To start i3 at login from tty1, add below to ~/.bash_profile
 if [[ "$(tty)" = "/dev/tty1"  ]]; then

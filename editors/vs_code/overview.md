@@ -10,6 +10,7 @@ Visual Studio Code (VS Code) is folder-oriented: you open a folder in VS Code an
 
 * [[shortcuts]]
 * [[extensions]]
+* [[themes]]
 
 * type @ in command-pallete to see members of the file (in typescript, etc)
 

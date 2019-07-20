@@ -95,6 +95,10 @@ vimgolf.com
 
 * Ctrl+S : freezes vim (it is scroll-lock in Linux Termial), use Ctrl+Q to unfreeze
 * Ctrl+V u <FA unicode number >
+
+jump to specific line number
+vim myfile.txt +28
+
 == Sources ==
 https://statico.github.io/vim3.html
 http://colorswat.ch/vim

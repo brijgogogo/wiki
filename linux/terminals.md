@@ -3,9 +3,12 @@
 * [[terminal_history]]
 * [[terminal_substitution]]
 
-== common terminals ==
+= terminal emulators =
+A terminal emulator allows a user to interact with a shell from within Xorg.
+
 * [[urxvt]]
 * [[simple-terminal]]
+* termite
 * [[quake|slide down terminals]]
 
 

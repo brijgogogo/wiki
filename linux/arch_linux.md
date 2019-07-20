@@ -2,9 +2,12 @@
 
 == Installation ==
 * [[arch_linux_installation]]
+* [[general_recommendations]]
+* [[general_tools]]
 
+= aur helpers / package managers =
 * [[pacman]]
-* [[yaourt]]
+* [[yaourt]] do not use now
 * [[yay]]
 
 == system ==
@@ -15,10 +18,17 @@
 * [[systemctl]] reboot, shutdown
 * [[arch_default_applications]]
 * [[arch_variables]]
-*
+* [[fonts]]
+* [[locale]]
+* [[keyboard]]
+* [[console]]
+* [[internet]] networking, wifi, ethernet
+* [[host]]
+* date-time
+* [[time]]
+
 
 == using Arch ==
-* [[arch_networking]]
 * [[arch_file_system]]
 * screenfetch
 * [[arch_dropbox]]
