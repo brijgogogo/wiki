@@ -34,6 +34,7 @@ By default, ASP.NET Core binds to:
 - [[http_verb_attributes]]
 - [[dependency_injection]]
 - [[response_format]]
+- [[api_versioning]]
 
 
 
