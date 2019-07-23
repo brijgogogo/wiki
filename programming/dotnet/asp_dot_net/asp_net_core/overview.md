@@ -35,7 +35,7 @@ By default, ASP.NET Core binds to:
 - [[dependency_injection]]
 - [[response_format]]
 - [[api_versioning]]
-
+- [[paths]] content root, web root
 
 
 == flavours ==
