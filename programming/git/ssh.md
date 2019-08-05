@@ -8,6 +8,12 @@
 5. Github -> Profile -> Settings -> SSh & Gpg Keys -> New Ssh
 6. copy content of id_rsa.pub into key textbox
 
-
 git config --global user.name "<your username>"
 git config --global user.email your@email.com
+
+
+$ ssh -T -p 443 git@ssh.github.com
+test ssh connection with github
+
+= sources =
+https://help.github.com/en/articles/using-ssh-over-the-https-port#enabling-ssh-connections-over-https
