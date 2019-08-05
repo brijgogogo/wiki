@@ -12,6 +12,7 @@
 * Configure mouse buttons for Arch Linux
 * asciicast
 * vim setups: YouCompleteMe, Syntastic, SnipMate, fzf, Fugitive
+* setup github pages
 
 * [[linux/overview|Linux]]
 * [[windows/overview|Windows]]
