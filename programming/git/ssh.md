@@ -15,5 +15,13 @@ git config --global user.email your@email.com
 $ ssh -T -p 443 git@ssh.github.com
 test ssh connection with github
 
+# clone using ssh
+git clone git@github.com:brijgogogo/wiki.git
+
+# for existing repositories, change origin url to use ssh in .git/config file
+# .git/config
+[remote "origin"]
+	url = git@github.com:brijgogogo/wiki.git
+
 = sources =
 https://help.github.com/en/articles/using-ssh-over-the-https-port#enabling-ssh-connections-over-https

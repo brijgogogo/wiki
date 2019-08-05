@@ -10,6 +10,7 @@ source code management (SCM)
 * [[architecture]]
 * [[git-checksum]]
 * [[head-pointer]]
+* [[ssh]]
 
 * git --version
 
