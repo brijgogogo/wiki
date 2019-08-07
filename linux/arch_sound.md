@@ -1,5 +1,8 @@
 = sound =
 ALSA is a set of built-in GNU/Linux kernel modules.
+
+
+
 amixer is a shell command to change audio settings
 alsamixer provides a more intuitive ncurses based interface for audio device configuration
 

@@ -12,6 +12,7 @@
 * Configure mouse buttons for Arch Linux
 * asciicast
 * vim setups: YouCompleteMe, Syntastic, SnipMate, fzf, Fugitive
+* arch linux: webcam setup, audio, video
 
 * [[linux/overview|Linux]]
 * [[windows/overview|Windows]]

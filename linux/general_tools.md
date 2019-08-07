@@ -12,3 +12,7 @@ yay i3blocks-git
 pacman -S chromium firefox
 
 pacman -S python2 python
+
+= utilities =
+xclip
+bc (used in i3block brightness)

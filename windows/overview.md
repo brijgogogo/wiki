@@ -24,3 +24,8 @@ list tasks running on remote computer DC01
 * [[skype]]
 * [[shortcuts]]
 * [[outlook]]
+
+= tools =
+irfanview
+
+

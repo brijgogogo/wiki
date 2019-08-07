@@ -3,7 +3,7 @@
 ACPI interface
 battery sends events to udev whenever it (dis)charges by 1%, this event can be connected to some action using a udev rule.
 
-* sudo pacman -S acip
+* sudo pacman -S acpi
 $ acpi
 
 /sys/class/power_supply/BAT1/uevent

@@ -5,6 +5,7 @@ config todo:
 files to link/sync:
 ~/.xinitrc
 ~/.bash_profile
+¬/.inputrc
 
 == Arch Linux ==
 * [[arch_linux]]
@@ -111,6 +112,9 @@ https://github.com/chubin/awesome-console-services
 * [[xfce]]
 * [[kde]]
 * [[i3/index|i3]]
+
+
+* [[newsboat]]
 
 
 apps to check

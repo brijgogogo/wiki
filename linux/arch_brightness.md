@@ -12,6 +12,22 @@ ACTION=="add", SUBSYSTEM=="backlight", RUN+="/bin/chgrp video /sys/class/backlig
 ACTION=="add", SUBSYSTEM=="backlight", RUN+="/bin/chmod g+w /sys/class/backlight/%k/brightness"
 https://gitlab.com/wavexx/acpilight/blob/master/90-backlight.rules
 
-2) add yourself to group video: sudo usermod -a -G video $USER
+1) add yourself to group video: sudo usermod -a -G video $USER
 
-3) run: sudo udevadm control -R && sudo udevadm trigger -c add -s backlight
+2) run: sudo udevadm control -R && sudo udevadm trigger -c add -s backlight
+
+
+
+# for nvidia driver
+(check discusstion tab in Arch Linux )
+
+add /usr/share/X11/xorg.confg.d/20-nvidia.conf
+
+Section "Device"
+	Identifier "NVIDIA"
+	Driver "nvidia"
+	Option "NoLogo" "True"
+	Option "RegistryDwords" "EnableBrightnessControl=1"
+EndSection
+
+http://www.thinkwiki.org/wiki/LCD_Brightness#Nvidia_driver

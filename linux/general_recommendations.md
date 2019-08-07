@@ -4,6 +4,9 @@
 https://wiki.archlinux.org/index.php/Microcode
 
 * [[enable_sudo]]
+* brightness [[arch_brightness]]
+* [[arch_sound]]
+* [[arch_battery]]
 
 
 = sources =
