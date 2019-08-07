@@ -9,6 +9,7 @@
 * [[web_servers/overview|web_servers]]
 * [[css/overview|css]]
 * [[html/overview|html]]
+* [[encryption]]
 
 * [[continuous_integration]]
 * [[powershell/overview|powershell]]

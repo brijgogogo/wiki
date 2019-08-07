@@ -13,6 +13,7 @@
 * asciicast
 * vim setups: YouCompleteMe, Syntastic, SnipMate, fzf, Fugitive
 * arch linux: webcam setup, audio, video
+* setup github pages
 
 * [[linux/overview|Linux]]
 * [[windows/overview|Windows]]

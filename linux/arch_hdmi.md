@@ -12,7 +12,7 @@ list the devices connected
 * xrandr --output HDMI-1 --mode 1366x768
 xranddr --output <monitor> --auto
 set output
-* xrandr --output HDI-1 --off
+* xrandr --output HDMI-1 --off
 turn off output
 
 GUI: arandr

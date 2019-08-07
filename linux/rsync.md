@@ -36,6 +36,9 @@ by default rsync does not delete
 %% files that match a different pattern by using the --include= option.
 %% rsync -a --exclude=pattern_to_exclude --include=pattern_to_include source destination
 
+-h : human-readable
+-c, --checksum - skip based on checksum, not mod-time & size
+
 == sources ==
 https://wiki.archlinux.org/index.php/rsync
 https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps
