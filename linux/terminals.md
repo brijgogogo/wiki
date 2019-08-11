@@ -7,7 +7,7 @@
 A terminal emulator allows a user to interact with a shell from within Xorg.
 
 * [[urxvt]]
-* [[simple-terminal]]
+* [[simple-terminal]] st
 * termite
 * [[quake|slide down terminals]]
 

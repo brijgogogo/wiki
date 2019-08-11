@@ -31,3 +31,11 @@ Section "Device"
 EndSection
 
 http://www.thinkwiki.org/wiki/LCD_Brightness#Nvidia_driver
+
+
+
+# Lenovo y540
+add kernel paramter: acpi_backlight=vendor
+https://wiki.archlinux.org/index.php/Backlight#Kernel_command-line_options
+
+

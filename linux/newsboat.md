@@ -27,6 +27,12 @@ e: enqueue
 q: go back and exit
 
 
+= subscriptions =
+- reddit: <reddit_url>/r/<sub_reddit>/.rss
+- youtube: https://www.youtube.com/subscription_manager (export subscriptions)
+  newsboat -i=<path_to_xml_file>
+
+
 = sources =
 https://newsboat.org/
 https://www.mankier.com/1/newsboat

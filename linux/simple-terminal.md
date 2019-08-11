@@ -36,3 +36,15 @@ Shift+mouse-wheel/touchpad scroll
 
 == font size ==
 increase pixelsize in config.h, then "make install"
+
+
+== copy url patch ==
+st.suckless.org/patches/copyurl/
+Alt+l : copies last url (and next cycles through others)
+
+= newterm patch =
+st.suckless.org/patches/newterm/
+Ctrl+Shift+Enter opens terminal in same location
+
+= open copied patch =
+Alt + o : opens copied via xdg-open

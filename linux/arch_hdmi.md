@@ -31,6 +31,7 @@ load a config
 automatically reload setup
 
 == mons ==
+* yay 2-monitors
 manage multiple monitors
 * mons
 list monitors

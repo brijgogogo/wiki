@@ -34,7 +34,7 @@ files to link/sync:
 * [[memory]]
 
 * [[banner_tools]]
-* [[media_players]]
+* [[media_players]] mpv
 
 * [[cpu_memory_diagnosing]]
 
@@ -114,7 +114,8 @@ https://github.com/chubin/awesome-console-services
 * [[i3/index|i3]]
 
 
-* [[newsboat]]
+* [[newsboat]] rss
+* [[youtube-dl]]
 
 
 apps to check

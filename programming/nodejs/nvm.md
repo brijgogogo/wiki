@@ -1,7 +1,7 @@
 = nvm =
 https://github.com/creationix/nvm
 
-sudo pacman -S nvm
+yay nvm
 
 
 nvm --version

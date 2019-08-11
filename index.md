@@ -15,6 +15,12 @@
 * arch linux: webcam setup, audio, video
 * setup github pages
 
+= my tools =
+- newsboat: rss reader
+- vim: editor
+- vifm: file manager
+
+= wiki =
 * [[linux/overview|Linux]]
 * [[windows/overview|Windows]]
 * [[android/overview|Android]]
