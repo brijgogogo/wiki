@@ -1,3 +1,4 @@
 = browsers =
 
 * [[qutebrowser]]
+* [[firefox]]
