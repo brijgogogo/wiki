@@ -12,4 +12,6 @@ Supports PDF, ePub, OpenXPS
 * man zathura
 * <c-r> : invert colors
 
+= sources =
+https://pwmt.org/projects/zathura/
 

@@ -73,3 +73,29 @@ DIB1041049
 Products for Delhi
 https://www.amazon.in/gp/product/B07C14VNCN/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1
 https://www.amazon.in/gp/product/B00K0B5S60/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
+
+
+sopcast
+search string: sop://broker.sopcast
+(search by 24 hours, past week)
+http://tructuyenbongda.com/link-acstream
+http://soikeo365.net/link-sopcast/
+https://www.tvonlinestreams.com/category/c55-sopcast/
+https://sopcast.ucoz.com
+http://www.sopcast.com/chlist.xml
+
+
+acestream
+http://arenavision.in/
+https://acesoplisting.in/
+https://www.google.com/#q=acestream://&tbs=qdr:w
+
+iptv
+google search: free iptv
+https://m3uplaylist.download/free-iptv-m3u-playlists#mcb_toc_head2
+
+= knowledge source =
+https://github.com/gotbletu/dotfiles/blob/master/aliasrc/.aliasrc
+
+
+

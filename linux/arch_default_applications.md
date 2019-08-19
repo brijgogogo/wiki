@@ -17,9 +17,16 @@ mupdf.desktop
 find mime-type of a file
 
 
+location *.desktop files
+/usr/share/applications
+
+
 * [[mime_types]]
 
 == sources ==
+https://wiki.archlinux.org/index.php/Desktop_entries
+https://wiki.archlinux.org/index.php/Default_applications
+https://wiki.archlinux.org/index.php/Xdg-utils#xdg-open
 https://www.reddit.com/r/linuxquestions/comments/5z3n81/default_applications_in_arch_linux/
 
 
