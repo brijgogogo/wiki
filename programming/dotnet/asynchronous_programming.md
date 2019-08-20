@@ -37,8 +37,16 @@ nature of operations:
 - CPU-bound
 
 
+ways to achieve concurrency in .NET:
+1. [[Thread]]
+2. [[ThreadPool]]
+3. Task
 
 
+== System.Threading ==
+- [[ThreadStaticAttribute]]
+- [[AsyncLocal]]
+- [[ThreadLocal]]
 
 = sources =
 https://docs.microsoft.com/en-us/dotnet/standard/async-in-depth
