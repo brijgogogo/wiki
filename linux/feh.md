@@ -21,5 +21,6 @@ To restore background image on next session, add below to ~/.xinitrc
 * feh --randomize --bg-fill ~/.wallpapers/*
 sets random wallpaper
 
+== sources ==
 https://wiki.archlinux.org/index.php/Feh
 

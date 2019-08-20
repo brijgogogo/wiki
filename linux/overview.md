@@ -42,8 +42,23 @@ files to link/sync:
 
 * [[usb_operations]]
 
+= book, pdf tools =
+* [[calibre]]
+* [[zathura]]
 
-* [[feh]]
+= media tools =
+* [[feh]] : image viewer
+* [[scrot]] : screenshot utility
+
+== file managers ==
+* [[ranger]]
+* [[vifm]]
+
+== rss, videos ==
+* [[newsboat]] rss
+* [[youtube-dl]]
+
+
 * [[rofi]]
 * [[ls]]
 
@@ -66,9 +81,6 @@ pauses for 5 seconds
 == Examples ==
 * [[dot_files_examples]]
 
-== file managers ==
-* [[ranger]]
-* [[vifm]]
 
 == Tools ==
 * [[my_tools]]
@@ -88,7 +100,6 @@ pauses for 5 seconds
 * [[fun_tools]]
 * [[misc]]
 * [[imagemagick]] : image manipulation utility
-* [[scrot]] : screenshot utility
 * [[curl]]
 * [[sed/overview|sed]]
 * [[tr]]
@@ -114,8 +125,6 @@ https://github.com/chubin/awesome-console-services
 * [[i3/index|i3]]
 
 
-* [[newsboat]] rss
-* [[youtube-dl]]
 
 
 apps to check
@@ -133,7 +142,6 @@ finch
 xrandr
 w3m
 feednix
-[[zathura]] : https://pwmt.org/projects/zathura/
 urxvt
 midnight commander
 www.meldmerge.com : file diff tool
