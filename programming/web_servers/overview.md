@@ -6,3 +6,5 @@
 * python -m http.server
 * [[nginx/overview|nginx]]
 * jekyll
+* lighttpd
+*

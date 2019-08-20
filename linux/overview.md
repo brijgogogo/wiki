@@ -54,9 +54,13 @@ files to link/sync:
 * [[ranger]]
 * [[vifm]]
 
-== rss, videos ==
+== mail, rss, videos ==
 * [[newsboat]] rss
 * [[youtube-dl]]
+* [[mutt]]: text-based mail client
+
+== encryption ==
+* [[gpg]]
 
 
 * [[rofi]]
@@ -146,7 +150,6 @@ urxvt
 midnight commander
 www.meldmerge.com : file diff tool
 conky
-mutt: text-based mail client
 Canto: CLI Rss feed reader
 raw therapee : Camera RAW image conversion
 digiKam : photo management
