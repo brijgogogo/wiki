@@ -26,7 +26,7 @@ To use public key authentication, the public key must be copied to a server and 
 $ ssh-copy-id -i ~/.ssh/ssh.file user@host
 
 * [[ssh-command]]
-
+* [[sshd]]
 * [[scp-command]]
 
 
