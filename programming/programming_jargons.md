@@ -33,3 +33,33 @@ It could be db-scripts, models, views, controllers, CRUD, etc.
 
 * Object graph
 object which contains other objects
+
+* Mask
+a special value that acts as a data filter. It reveals some parts of digital information, and conceals or alters others.
+
+* Bitmask
+- In binary operations, a bitmask can be used to filter bit values using logical operations.
+- For instance, a bitmask of 00001111, when used with the boolean AND operation, will always convert the first four bits of another byte (the other operand) to 0. The final four bits will be unchanged. This operation is called "masking out" the first four bits, changing them to 0.
+
+* Netmask
+- A type of bitmask, used in computer networking.
+- One type of netmask, a subnet mask, defines logical divisions ("subnets") of a computer network. For instance, a subnet mask of 255.255.255.0 masks out the first three bytes of an IP address, leaving only the final byte — the host identifier.
+
+* Searchmask
+*.exe refers to all file with extension "exe"
+
+* Umask
+In *nix systems, umask is a mask of octal values that sets the permissions of new files
+
+* Spaghetti code
+variables are used and modified all over a program
+Program becomes very hard to understand and extremely dificult to maintain and modify.
+
+* REPL: read evaluate print loop
+
+* Vertical Scaling / Scalilng Up : adding resources to increase the power of an existing server. E.g add CPUs, add more memory.
+* Horizontal Scaling / Scaling Out: adding more servers that function together as one unit.
+
+* Redundancy / Faut Tolerance
+
+* Economies of Scale: abilities to do things more efficiently or at a lower-cost per unit when operating at a larger scale.

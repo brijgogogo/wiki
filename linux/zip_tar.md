@@ -4,7 +4,7 @@ Command line port of 7zip
 * 7z e <archive> : extract to current directory without using directory names
 * 7z x <archive> : archive with full file path
 * 7z x <archive> -o<output_directory>
-* 7z x file.7z
+* 7z x file.7z : extract parted file
 
 == zip/unzip ==
 * sudo pacman -Ss zip

@@ -1,9 +1,13 @@
 = comments =
 
-* single line comments
 # single line comment
+score = 0 # comment after code
 
-* multi-line comments
+'''
+multiline comments
+use three single or double quotes
+'''
+
 def add_student(name, student_id=332):
     """
     adds student to the list

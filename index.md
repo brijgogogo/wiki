@@ -46,6 +46,7 @@
 * [[mind_matters]]
 * [[cheatsheets/vim|cheetsheets]]
 https://aonemd.github.io/blog/finding-things-in-vim
+* [[anne_pro_2]]
 
 +91-9689337555
 411015

@@ -1,0 +1,4 @@
+= minpac =
+
+:PackUpdate
+:PackClean

@@ -1,7 +1,7 @@
 = Editors =
-  * [[vim/overview|vim]]
-  * [[vs_code/overview|vs code]]
-  * [[visual_studio/overview|visual studio]]
+* [[vim/overview|vim]]
+* [[vs_code/overview|vs code]]
+* [[visual_studio/overview|visual studio]]
 
 
 == Online Editors ==

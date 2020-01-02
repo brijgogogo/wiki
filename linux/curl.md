@@ -30,5 +30,11 @@ count number of lines
 * curl https://ipapi.co/timezone
 *
 
+
+curl -s -X GET https://openexchangerates.org/api/latest.json?app_id=<app_id> | grep INR
+
+
+
+
 = sources =
 http://www.compciv.org/recipes/cli/downloading-with-curl/

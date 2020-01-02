@@ -41,6 +41,7 @@ files to link/sync:
 * [[blogs]]
 
 * [[usb_operations]]
+* [[logitech_unifying_receiver]]
 
 = book, pdf tools =
 * [[calibre]]
@@ -61,6 +62,36 @@ files to link/sync:
 
 == encryption ==
 * [[gpg]]
+* [[gopass]]
+
+== search tools ==
+* [[ls]]
+* [[find]]
+* [[locate]]
+* [[xargs]]
+* [[grep]]
+* [[sed]]
+* which : locate a command
+* [[wildcards]]
+* [[ripgrep]]
+* wc <file> : tells number of lines, words and characters in a file
+* nl <file> : print line numbers
+* tree
+* file file1 : tells what kind of data file contains
+* du -sh dir1
+to find size fo directory
+-s = summarize
+-h = human readable
+* cp *.jpg dir1/
+  * matches any  sequence of characters except /
+? matches a single character
+* mv out{put.pdf,new.pdf} : rename output.pdf to outnew.pdf
+* mkdir test{1,2,3} : create test1, test2, test3 directories
+* mkdir -p work/{d1,d2}/{src,bin,bak} : make directory tree
+* mkdir -p work/{d1/,d2/{src/,bin/}} : make directory tree
+* cp file.txt{,.bak} : create backup of file
+
+
 
 
 * [[rofi]]
@@ -70,7 +101,6 @@ files to link/sync:
 * [[terminals]]
 * [[fzf]]
 * [[urlscan]] (instead of urlview)
-* [[searching_files]] (find, xargs, grep)
 * [[bootable_usb]] (dd)
 * [[zip_tar]]
 * cat : show contents of file
@@ -116,8 +146,9 @@ pauses for 5 seconds
 https://github.com/chubin/awesome-console-services
 
 == general tasks ==
-* [[cloud_storages]]
+* [[cloud_storages]] dropbox
 * [[access_android_mtp]]
+* [[android_adb]]
 * [[tor]]
 * find . -name '*.wiki' -exec sh -c 'mv "$0" "${0%.wiki}.md"' {} \; : rename all *.wiki to *.md
 * [[pdf_tools]]

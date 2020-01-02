@@ -1,5 +1,8 @@
 = if statements =
 
+if<boolean expression>:
+  <indented block of code>
+
 number = 5
 if number == 5:
   print("number is 5")

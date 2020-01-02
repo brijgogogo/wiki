@@ -15,5 +15,6 @@ KEYMAP=uk
 (deault KEYMAP is us)
 
 = sources =
+https://wiki.archlinux.org/index.php/Xorg/Keyboard_configuration
 https://wiki.archlinux.org/index.php/Linux_console/Keyboard_configuration
 https://wiki.archlinux.org/index.php/Installation_guide#Set_the_keyboard_layout

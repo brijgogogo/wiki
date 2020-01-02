@@ -15,5 +15,9 @@ calibredb --add * -r
 search expressions: title:robot, author:abc
 
 
+* poppler for pdftohtml required for pdf to mobi/epub/azw3 format
+
+
+
 == sources ==
 https://manual.calibre-ebook.com/generated/en/calibredb.html

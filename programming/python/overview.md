@@ -1,43 +1,78 @@
 = python =
-Python was created in the 1990s by Guido van Rossum.
-high-level, dynamic, object-oriented, cross-platform
+- Python was created in the 1990s by Guido van Rossum, maintained by Python Software Foundation
+- high-level, dynamic, object-oriented, cross-platform
+- interpreted, scripting language
+- automatic memory management
+- simple, readable
+- open source (is free)
+- www.python.org
+- .py extensions
+- case-sensitive
 
-== features ==
-* interpreted
-* dynamic programming language
-* automatic memory management
-* readable
-* .py extensions
-* platform independent
-* maintained by Python Software Foundation
-* open source (is free)
-* www.python.org
+* [[Python_versions]]
 
-Standard Library: representing data, processing text, interacting with the OS, file system, web programming
-Extension modules: GUI, databases, networks, xml parsing
+* [[Python_tools]] (editors, IDEs, tools)
+* [[REPL]] (python / ipython)
 
-Extension module can be written in Python or lower-level languages to achieve maximum performance.
-Python 3 is incompatible with Python 2
+* [[python_implementaions]]
+* [[Python_code_execution]]
+
+* [[variables]]
+* [[data_types]]
+* [[operators]]
+* [[comments]]
+* [[errors]]
+* [[exceptions]]
+
+* [[if_statements]]
+* [[loops]]
+* [[strings]]
+* [[boolean]]
+* [[truthy_and_falsy_value]]
+* [[lists]]
+* [[dictionaries]]
+
+* [[none]]
+
+* [[packages]]
+* [[modules]]
+
+* [[file_operations]]
+* [[generator_function]]
+* [[lambda_functions]]
+* [[classes]]
+* [[polymorphism]]
+
+* [[syntax]]
+* [[garbage_collection]]
+* [[functions]]
+* [[decorators]]
+
+* [[python_virtual_environments]]
+* [[pyinstaller]]
+* [[innosetup]]
 
 
-Python 2 : EOL 2020
+isinstane(obj, type)
+
+* python3 --version
+* pacman -Ss python-pip
+
+== package managers ==
+* pip
+* setuptools
+
+== web development ==
+API: Flask, Bottle, Pyramid
+Website: Django, TurboGears, web2py
+App (CMS, ERP): Plone, django-cms, Mezzanine
 
 
-== development environments: ==
-* IDLE (Python shell) : comes with Python, based on Tkinter GUI toolkit
-sudo pacman -S tk
-extensions: IdleX
-* Eclipse : PyDev extension
-* Wingware IDE
-* PyCharm
-* Visual Studio : PTVS plug-in
 
-== tools ==
-* Pyflakes
-* PyLint : check style details
-* web frameworks: [[flask]], Django
-* desktop app: Qt
-* package managers: [[pip]]
+== Python Enhancement Proposals (PEPs) ==
+Documents
+- www.python.org/dev/peps/
+
 
 script : a file that you can run directly
 module: a file that you can import
@@ -63,50 +98,12 @@ starts interactive session, _ (underscore) contains result of last expression.
 Terminate with C-Z or C-D
 
 
+* If you think a line is getting too long to read, you can add a backslash character (\) at a logical breaking point to indicate that the line should continue to next line
 
 
-* [[variables]]
-* [[if_statements]]
-* [[data_types]]
-* [[strings]]
-* [[boolean]]
-* [[truthy_and_falsy_value]]
-* [[none]]
-* [[lists]]
-* [[loops]]
-* [[dictionaries]]
-* [[exceptions]]
-* [[functions]]
-* [[file_operations]]
-* [[generator_function]]
-* [[lambda_functions]]
-* [[classes]]
-* [[polymorphism]]
-* [[modules]]
-
-* [[syntax]]
-* [[garbage_collection]]
-* [[functions]]
-* [[comments]]
-* [[decorators]]
-
-* [[python_implementaions]]
-* [[python_virtual_environments]]
-* [[pyinstaller]]
-* [[innosetup]]
-
-* [[useful_built_in_functions]]
-* [[constants]]
-
-
-isinstane(obj, type)
-
-* python3 --version
-* pacman -Ss python-pip
-
-== package managers ==
-* pip
-* setuptools
+Standard Library: representing data, processing text, interacting with the OS, file system, web programming
+Extension modules: GUI, databases, networks, xml parsing
+Extension module can be written in Python or lower-level languages to achieve maximum performance.
 
 = sources =
 https://wiki.archlinux.org/index.php/python

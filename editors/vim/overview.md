@@ -72,6 +72,7 @@
 
 == Plugin Managers ==
 * [[vim-plug]]
+* [[minpac]]
 
 
 :py print 2*2
@@ -96,8 +97,74 @@ vimgolf.com
 * Ctrl+S : freezes vim (it is scroll-lock in Linux Termial), use Ctrl+Q to unfreeze
 * Ctrl+V u <FA unicode number >
 
+* :help defaults.vim
+check defaults
+* :filetype
+check filetype detection
+* vim --version
+
 jump to specific line number
 vim myfile.txt +28
+
+* :py3 print('hello')
+executes the specified command using a Python 3 interpreter
+
+* [[vim_vs_neovim]]
+
+:echo join(split(&runtimepath,','),"\n")
+see runtimepath values
+
+== vim plugins ==
+A package is a directory that contains one or more plugins.
+A plugin is a directory that contains one or more scripts.
+A script is a standalone file containing instructions written in vim script.
+
+
+function!GetMyName()
+  echo 'Brij'
+endfunction
+
+command! MyName call GetMyName()
+
+nnoremap M :MyName<CR>
+
+
+Installing a plugin means adding it to Vim's 'runtimepath' (:help 'runtimepath')
+
+:set runtimepath+=/.vim/mypackage/my-plugin
+
+When vim launches, it searches for plugins under .vim/pack/*/start
+
+
+:helptags ALL
+index the documentations
+
+:packadd <plugin-name>
+load optional plugin from .vim/pack/bundle/opt/<plugin-name>
+
+
+:messages
+see previous messages
+
+
+:help channel
+info on Vim's job control
+
+
+
+fzf
+:FZF : open fzf picker interface
+<C-c> : exit fzf picker interface
+<C-v> : opens file in vertical split
+<C-x> : open in horizontal split
+<C-t> : open in new tab
+<C-k/j> : change selection
+
+== navigating help ==
+:help user-manual
+<C-]> : visit hyperlink
+<C-o> : go back
+
 
 == Sources ==
 https://statico.github.io/vim3.html

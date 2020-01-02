@@ -17,6 +17,7 @@
 * [[shell_scripting/overview|shell scripts]]
 * z-shell
 * fish-shell
+* [[bash/overview|bash]]
 
 * [[mongodb/overview|mongodb]]
 * [[oracle/index|Oracle]]

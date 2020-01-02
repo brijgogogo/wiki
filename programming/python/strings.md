@@ -28,8 +28,11 @@ In triple-quoted string literal, line breaks remain.
 
 raw string: starts with r or R before quote. In raw string, escape sequences are not interpreted.
 
+# concatenation
+firstString + secondString
 
-
+# substring
+str[0:3] : get 3 characters from beginning
 
 
 
