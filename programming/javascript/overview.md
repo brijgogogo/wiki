@@ -15,6 +15,8 @@
 
 * [[../nodejs/overview|nodejs]]
 
+* [[js_app_questions]]
+
 == flavors of javascript ==
 * [[ecmascript/overview|ecmascript]]
 * [[../typescript/overview|typescript]]

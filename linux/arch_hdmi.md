@@ -4,6 +4,7 @@
 to find screen resolution
 * xdpyinfo
 to find screen resolution
+* xrandr --listmonitors
 
 
 == video ==

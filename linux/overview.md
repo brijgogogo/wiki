@@ -158,6 +158,7 @@ https://github.com/chubin/awesome-console-services
 * [[xfce]]
 * [[kde]]
 * [[i3/index|i3]]
+* [[awesome]]
 
 
 

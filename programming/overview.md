@@ -19,19 +19,27 @@
 * fish-shell
 * [[bash/overview|bash]]
 
+= databases =
 * [[mongodb/overview|mongodb]]
 * [[oracle/index|Oracle]]
 * [[caches]]
 
 * [[cloud/overview|cloud_computing]]
 
+= programming languages =
 * [[python/overview|python]]
+* [[elm/overview|elm]]
 * [[golang/overview|golang]]
 * [[php]]
 * [[kotlin/overview|kotlin]]
 * [[ruby/index|ruby]]
 
+= content management =
 * [[jekyll/index|jekyll]]
+
+= search =
+* [[elastic_search/overview|elastic search]]
+* [[solr/overview|solr]]
 
 * [[development_methods]]
 * [[coding_practices]]
@@ -70,3 +78,11 @@ Usably formatted
 Easily accessible
 
 https://www.martinkysel.com/codility-permmissingelem-solution/
+
+
+= Benefits of Starter Kit =
+- It codifies - decisions, best practices, lessons learned
+- Encourages consistency
+- Avoids forgetting important details
+- Increase quality
+- Avoids repeating work
