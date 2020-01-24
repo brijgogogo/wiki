@@ -6,7 +6,7 @@ Request -> Middleware -> Routing -> Controller initialization -> Action Executio
 - Building blocks of Http pipeline
 
 # Routing
-- Routing Middleware
+- Endpoint Routing Middleware
 - MVC Route Handler
 
 # Controller initialization
