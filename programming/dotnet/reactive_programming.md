@@ -1,91 +1,35 @@
 = reactive programming in .net =
 
 We process data in real time as it happens.
-
 For example, we have a Market class which has the prices of securities, which keep on changing. We can subscribe to these changes and process them in real time.
-
 We can do this using custom events, INotifyPropertyChanged, Observer pattern (using System.IObserver<T> and System.IObservable<T>)
 
+* [[Disadvantages_of_events/delegates]]
+
+== Reactive Extensions ==
+Reactive Extensions for .NET (Rx)
+- elegant, familiar, declarative style, less code
+
+Essentially Rx is built upon the foundations of the Observer pattern. 
+
+
+You should consider using Rx if you have an existing IEnumerable<T> that is attempting to model data in motion. While IEnumerable<T> can model data in motion (by using lazy evaluation like yield return), it probably won't scale. Iterating over an IEnumerable<T> will consume/block a thread. You should either favor the non-blocking nature of Rx via either IObservable<T> or consider the async/await features.
+
 .NET Provides System.Reactive libraries (in Nuget) to carry out reactive programming using IObserver<T> and IObservable<T>
+ 
+Push model: A producer pushes items onto the sequence and consumers passively receive these items and act on them. IEnumerable is Pull/Synchronous. IObservable is Push/Asynchronous.
 
-interface IObserver<T>
-{
-  void OnNext(T);
-  void OnError(Exception);
-  void OnComplete();
-}
+In between the producer and the consumer we can create multiple stages where we apply operations such as transformations, filters, projections and the like. Each operation is applied on an IObservable<T> and returns an IObservable<T>. We can apply LINQ like methods like Select, Where, GroupBy, Any, All, Distinct, Skip, Take, the list goes on.
 
-interface IObservable<T>
-{
-  IDisposable Subscribe(IObserver<T>); // dispose the IDisposable to unsubscribe
-}
-
-* Example 1
-var market = new Subject<float>();
-using(market.Subscribe(instanceOfIObservable)) {}
-  market.OnNext(1.2f);
-  market.OnException(ne Exception("oops"));
-  market.OnComplete();
-} // gets unsubscribed
+[[Observable]]: stream of values which can be observerd
+Observer: client code which actually observes the Observables
 
 
-market.Where(x => x > 2).Subscribe(x => Console.WriteLine(x));
-
-* Example 2 (Proxy and Broadcast)
-var market = new Subject<float>(); // observable
-var marketConsumer = new Subject<float>(); // observer of market and observable
-market.Subscribe(marketConsumer);
-marketConsumer.Subscribe(
-      v => Console.WriteLine($"got value of {x}"),
-      ex => Console.WriteLine($"got error {ex.Message}"),
-      () => Console.WriteLine("complete");
-    );
-market.OnNext(1);
-market.OnNext(2);
-market.OnCompleted();
-
-
-* ReplaySubject - caches values with sequence. Whenever someone subscribes, it publishes the values in sequence.
-var market = new ReplaySubject<float>();
-market.OnNext(1);
-market.Subscribe(x => Console.WriteLine(x));
-// ReplaySubject(TimeSpan) overload of constructor allows to replay messages for specific duration back from the time of subscription
-// ReplaySubject(int) : replay utpo the buffer size specified by constructor
-
-* BehaviorSubject
-var sensorReading = new BehaviorSubject<double>(-1.0);//default/starting value is -1.0
-
-* AsyncSubject - gives the last value after OnComplete is called
-//Task<int> t = Task<int>.Factory.StartNew(() => 42);
-//int value = t.Result;
-var sensor = new AsyncSubject<double>();
-sensor.Subscribe(
-  x => Console.WriteLine(x);
-    );
-sensor.OnNext(1);
-sensor.OnNext(2);
-sensor.OnComplete();
-
-* IObservable<T>
-public class Market : IObservable<float>
-{
-  private ImmutableHashset<IObserver<float>> observers = ImmutableHashSet<IObserver<float>>.Empty;
-
-  public IDisposable Subscribe(IObserver<float> observer) {
-    observers = observers.Add(observer);
-
-    return Disposable.Create(() =>
-    {
-      observers = observers.Remove(observer);
-    });
-  }
-
-  public void Publish(float price) {
-    foreach(var o in observers) {}
-      o.OnNext(price);
-     }
-  }
-}
+* [[basic_interfaces]] (IObserver, IObservable)
+* [[Observable_Helpers]]
+* [[Subject]] 
+* [[hot_and_cold_observables]]
+* [[rx_concurrency]]
 
 
 * Example of Observable to genrate sequences
@@ -624,3 +568,12 @@ static void Main()
     player2.Score();
   }
 }
+
+
+== sources ==
+https://jack-vanlightly.com/blog/2018/4/19/processing-pipelines-series-reactive-extensions-rxnet
+http://introtorx.com/
+
+
+
+
