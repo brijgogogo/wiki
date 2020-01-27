@@ -57,6 +57,8 @@
 == my packages ==
 * [[arch_my_packages]]
 
+* [[troubleshooting]]
+
 = Sources =
 https://wiki.archlinux.org/index.php/systemd
 https://i.imgur.com/Hokk8sK.jpg
