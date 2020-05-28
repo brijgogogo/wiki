@@ -24,6 +24,36 @@ When you just type a name of the command, Bash tries to find it in a series of d
 
 * [[variables]]
 * [[functions]]
+ 
+== test command ==
+test EXPRESSION
+[ EXPRESSION ]
+[[ EXPRESSION ]]
+
+FILE operators:
+- -e : checks whether file exists regardless of the type
+- -f : returns true only if the file ia a regular file (not a directory or a device)
+- -d : checks whether a file is a directory or not
+- -x: file exists and is executable
+- -w: file exists and is writable
+ 
+e.g:
+FILE=/etc/resolv.conf
+if [ -f "$FILE" ]; then
+	echo "$FILE exist"
+fi
+
+# file does not exists
+if [ ! -f "$FILE" ]; then
+   ....
+fi
+
+- -a : check multiple conditions
+if [ -f /file1 -a -f /file2 ]; then
+fi
+
+if [ -f /file1 && -f /file2 ]; then
+fi
 
 == common checks ==
 if [ -d "$directory" ]; then

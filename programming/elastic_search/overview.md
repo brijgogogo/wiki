@@ -69,6 +69,7 @@ Process logs and output to Elastic search:
 
 To search and analyze logs in visual interface:
 - Kibana
+Kibana offers analytics and search dashboard for ElasticSearch, as well as visualization capabilities for data stored in Elasticsearch.
 
 
 * [[dot_net_clients]]

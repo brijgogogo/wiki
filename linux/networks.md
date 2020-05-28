@@ -23,3 +23,9 @@
 
 * iftop
 %% list processes sending and receiving network data along with source and dest
+
+
+
+* bind-tools package
+dig: domain information groper
+- tool for querying DNS name serversnew 

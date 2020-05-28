@@ -63,3 +63,11 @@ Program becomes very hard to understand and extremely dificult to maintain and m
 * Redundancy / Faut Tolerance
 
 * Economies of Scale: abilities to do things more efficiently or at a lower-cost per unit when operating at a larger scale.
+
+* entropic functionality: functionality that is random (like response based on randon number generation)
+
+* run-of-the-mill application: lacking unusual or special aspects
+
+* monkey patch : to extend or modify supporting system software locally (affecting only the running instance of the program)
+
+* guerrilla patch: changing code sneakily, and possibly incompatibly with other such patches, at runtime.

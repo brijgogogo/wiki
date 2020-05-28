@@ -1,3 +1,13 @@
+- Input formatters used by Model Binding
+- Output formatters used by format response
+
+Built-in input formatters: JSON, XML
+Built-int output formatters: JSON, XML, text
+
+MvcOptions
+- InputFormatters
+- OutputFormatters
+ 
 = response format =
 
 = format-specific ActionResults =
@@ -22,6 +32,7 @@ public string Get() // same as ContentResult
 {
   return "some content";
 }
+
 
 
 == sources ==

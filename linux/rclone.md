@@ -9,6 +9,8 @@ list directories of "remote". Here remote if name of cloud storage set up using 
 * rclone sync --dry-run /local/pth remote:/cloud/path
 * rclone check source:path dest:path [flags]
 
+* rclone sync source:path dest:path [flags]
+
 == examples ==
 * rclone sync dropbox_remote:/ ./dropbox/
 sync source and destination (modifying only destination)

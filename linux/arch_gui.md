@@ -51,6 +51,8 @@ pacman -S nvidia
 pacman -S nvidia-settings
 https://wiki.archlinux.org/index.php/NVIDIA
 
+** add hook for mkinitcpio **
+
 = i3 =
 https://wiki.archlinux.org/index.php/I3
 $ pacman -S i3-wm

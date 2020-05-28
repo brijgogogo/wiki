@@ -62,3 +62,9 @@ adds and commits in one go. It doesn't include untracked and deleted files.
 https://try.github.io/levels/1/challenges/1
 https://git-scm.com
 https://www.linkedin.com/learning/git-essential-training
+
+
+= reading list =
+https://martinfowler.com/articles/branching-patterns.html
+https://towardsdatascience.com/api-as-a-product-how-to-sell-your-work-when-all-you-know-is-a-back-end-bd78b1449119
+https://hacks.mozilla.org/2020/04/code-quality-tools-at-mozilla/

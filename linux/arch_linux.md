@@ -37,7 +37,7 @@
 * [[notifications]]
 
 == hardwares ==
-* [[arch_sound]]
+* [[arch_sound]] audio
 * [[arch_hdmi|hdmi, xrandr, screen resolution, multiple monitors]]
 * [[arch_mouse]]
 * [[arch_battery]]

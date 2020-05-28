@@ -3,6 +3,9 @@
 $ pacman -S mpv
 $ cp -r /usr/share/doc/mpv/ ~/.config/
 
+
+https://mpv.io/manual/master/#files
+
 == keyboard shortcuts ==
 key bindings: ~/.config/mpv/input.conf
 
@@ -41,3 +44,4 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 https://mpv.io/
 https://github.com/mpv-player/mpv/blob/master/DOCS/mplayer-changes.rst
 https://cygnatus.com/guide/mpv/
+https://mpv.io/manual/stable/#options

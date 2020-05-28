@@ -39,6 +39,8 @@ files to link/sync:
 * [[cpu_memory_diagnosing]]
 
 * [[blogs]]
+* [[logs]]
+* [[daemons]]
 
 * [[usb_operations]]
 * [[logitech_unifying_receiver]]
@@ -47,13 +49,22 @@ files to link/sync:
 * [[calibre]]
 * [[zathura]]
 
-= media tools =
+= image viewers =
 * [[feh]] : image viewer
+* [[sxiv]]
+
+= media tools =
 * [[scrot]] : screenshot utility
+* [[ffmpeg]] : audio conversion
+* tartube: youtube video download
+* hardinfo (https://github.com/lpereira/hardinfo)
+
+
 
 == file managers ==
 * [[ranger]]
 * [[vifm]]
+* [[nnn]]
 
 == mail, rss, videos ==
 * [[newsboat]] rss
@@ -91,6 +102,7 @@ to find size fo directory
 * mkdir -p work/{d1/,d2/{src/,bin/}} : make directory tree
 * cp file.txt{,.bak} : create backup of file
 
+* [[todo.txt_cli]]
 
 
 
@@ -127,7 +139,6 @@ pauses for 5 seconds
 * [[xclip]]
 * [[fc]]
 * [[wget]]
-* [[tmux]]
 * [[grub]]
 * [[telnet]]
 * [[gnu_make]]
@@ -159,6 +170,7 @@ https://github.com/chubin/awesome-console-services
 * [[kde]]
 * [[i3/index|i3]]
 * [[awesome]]
+* [[dwm]]
 
 
 
@@ -166,17 +178,13 @@ https://github.com/chubin/awesome-console-services
 apps to check
 --------------------
 gpicview
-cmus
+* [[cmus]] (music player)
 firefox + vimperator
 smplayer
 polybar
-
-
-apps to explore further
--------------------------
 finch
 xrandr
-w3m
+* [[w3m]] (text based browser)
 feednix
 urxvt
 midnight commander
@@ -193,6 +201,7 @@ https://dominicm.com/force-hard-drives-to-sleep-on-arch-linux/
 https://dominicm.com/install-video-drivers-on-arch-linux/
 https://github.com/LukeSmithxyz/voidrice
 
+* [[systemd]]
 
 = Linux Apps =
 
@@ -217,6 +226,13 @@ https://github.com/LukeSmithxyz/voidrice
 * ddgr
 * [[googler]]
 * [[buku]]
+
+= terminal =
+* [[tmux]]
+
+
+# IRC clients
+- irssi
 
 = os =
 * [[manjaro]]

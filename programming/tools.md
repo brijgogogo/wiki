@@ -13,3 +13,4 @@ chrome exteions: see design live in browser, edit, copy css
 rest api test tool
 * https://www.2dimensions.com/about-flare
 2d design tool
+* https://mailtrap.io/

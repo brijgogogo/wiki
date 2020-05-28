@@ -42,6 +42,8 @@ List globally installed packages
 show only top level packages
 * npm outdated
 show obsolete packages
+* npm bin
+gives bin path
 
 == npm configuration ==
 * npm config get prefix

@@ -1,5 +1,14 @@
 = Functions =
 
+function!GetMyName()
+  echo 'Brij'
+endfunction
+
+command! MyName call GetMyName()
+
+nnoremap M :MyName<CR>
+
+
 function! AddHelloToTop()
   normal HOhello thereA vim user0
   s/hello there/hi/
@@ -24,3 +33,6 @@ nnoremap <leader>h :call AddHelloToTop()<cr>
 %% echom addes the value to messages, visible using :messages
 
 :echo
+
+
+:echo join(split(&runtimepath,','),"\n")

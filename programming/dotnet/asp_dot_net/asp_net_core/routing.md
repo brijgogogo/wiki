@@ -179,6 +179,34 @@ blog/{article:minlength(10)}
 * {name:<transformer_name>}
 blog/{article:slugify}
 
+= Endpoint Routing =
+- Endpoint route resolution : looking at the incoming request and mapping the request to an endpoint using route mappings.
+
+An endpoint represents the controller action.
+
+- Endpoint dispatch : process of invoking the controller action method that corresponds to the endpoint.
+
+- Endpont route mapping
+
+Any middleware after the endpoint route resolution will be able to access the resolved endpoint through the HttpContext.
+
+app.Use((context, next) =>
+{
+	var endpointFeature = context.Features[typeof(Microsoft.AspNetCore.Http.Features.IEndpointFeature)] as Microsoft.AspNetCore.Http.Features.IEndpointFeature;
+	Microsoft.AspNetCore.Http.Endpoint endpoint = endpointFeature?.Endpoint;
+	
+	if(endpoint != null)
+	{
+		var routePattern = (endpoint as Microsoft.AspNetCore.Routing.RouteEndpoint)?.RoutePattern?.RawText;
+		//endpoint.DisplayName
+		//endpoint.Metadata
+	}
+	
+	return next();
+});
+
+
+https://aregcode.com/blog/2019/dotnetcore-understanding-aspnet-endpoint-routing/
 
 
 

@@ -1,4 +1,17 @@
 = REST =
+Roy Fielding's Dissertation
+
+# REST: REpresentational State Transfer
+ReST is series of rules/contraints:
+1. Separation of Client Server: Client sends a request to Server, Server sends response to Client.
+2. Stateless Server: As loads increase you can add more servers. If the server is stateful, client sending a request to any server won't work.
+3. Cacheable response: Cache data that doesn't change very often. Server should let client know how long the data is good for.
+4. Uniform Interface: Server interface should be uniform from one service to another:
+  1. Resources (nouns not actions): Uniform Intefaces are built around things, not actions. Actions are verbs like Authorize, login, etc. Nouns are things, like Books, Authors.
+  2. Verbs distate type of request: like HTTP Verbs: GET, POST (add an object), DELETE, PUT (replace an object), PATCH (update specific parts of object)
+  3. URI
+
+
 
 Client -> HTTP Request (verbs, headers, content)
 Server -> HTTP Response (status code, headers, content)
@@ -38,10 +51,6 @@ Content Tyep: text
 - 409 : Conflict
 - 500 : Server error
 
-# REST: REpresentational State Transfer
-- Separation of Client and Server
-- Cacheable response
-- URI
 
 Resource: things that represent objects in your system
 (domain model / entities)

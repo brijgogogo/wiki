@@ -22,8 +22,18 @@ if sound works on a card set it per user in ~/.asoundrc
 defaults.pcm.device = 0
 defaults.pcm.card = 1
 
-
 https://bbs.archlinux.org/viewtopic.php?id=231316
+
+
+== microphone ==
+List microphone devices
+$ arecord --list-devices
+
+$ arecord -f dat -d 10 -r 16000 --device="hw:1,0" /tmp/test-mic.wav
+Record 10 second audio using Card 1 and Device 0
+$ aplay /tmp/test-mic.wav
+
+
 
 = sources =
 https://wiki.archlinux.org/index.php/Advanced_Linux_Sound_Architecture

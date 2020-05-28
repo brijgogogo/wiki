@@ -3,3 +3,5 @@
 * [[api]]
 * [[async_asp.net_core]]
 
+* other
+https://github.com/ardalis/ApiEndpoints

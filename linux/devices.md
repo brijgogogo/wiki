@@ -24,6 +24,7 @@ show details of file systems
 
 == Mounting Devices ==
 * mount /dev/sdb1 /run/media/vik/usb1
+* ntfs-3g /dev/sdb1 /run/media/vik/usb1
 * umount /dev/sdb1
 * umount /run/media/vik/Data
 

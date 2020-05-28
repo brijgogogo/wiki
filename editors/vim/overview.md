@@ -52,12 +52,12 @@
 * [[vim_settings]]
 * [[mappings]]
 * [[vim-reg-ex]]
-* [[vim-functions]]
 * [[vim-auto-completion]]
 * [[vim-abbreviations]]
 * [[vim_other_tips]]
 * [[vimdiff]]
 * [[clipboard]]
+* [[terminal_mode]]
 
 * set ft=text
 
@@ -69,17 +69,22 @@
 * [[Vimwiki]]
 * [[fzf]]
 * [[calendar.vim]]
+* [[projectionist]]
+* [[coc_vim]]
 
 == Plugin Managers ==
 * [[vim-plug]]
 * [[minpac]]
 
+* [[VimPlugins|Vim plugins, script, functions]]
+* [[help|help/documentation in vim]]
 
 :py print 2*2
 
 
 * [[.net_in_vim]]
 
+* review previous messages
 :messages
 :version
 :e
@@ -91,8 +96,6 @@ reddit.com/r/vim
 http://learnvimscriptthehardway.stevelosh.com/
 vimgolf.com
 
-:h todo.txt
-:help user-manual
 
 * Ctrl+S : freezes vim (it is scroll-lock in Linux Termial), use Ctrl+Q to unfreeze
 * Ctrl+V u <FA unicode number >
@@ -111,36 +114,9 @@ executes the specified command using a Python 3 interpreter
 
 * [[vim_vs_neovim]]
 
-:echo join(split(&runtimepath,','),"\n")
 see runtimepath values
 
-== vim plugins ==
-A package is a directory that contains one or more plugins.
-A plugin is a directory that contains one or more scripts.
-A script is a standalone file containing instructions written in vim script.
-
-
-function!GetMyName()
-  echo 'Brij'
-endfunction
-
-command! MyName call GetMyName()
-
-nnoremap M :MyName<CR>
-
-
-Installing a plugin means adding it to Vim's 'runtimepath' (:help 'runtimepath')
-
-:set runtimepath+=/.vim/mypackage/my-plugin
-
-When vim launches, it searches for plugins under .vim/pack/*/start
-
-
-:helptags ALL
-index the documentations
-
-:packadd <plugin-name>
-load optional plugin from .vim/pack/bundle/opt/<plugin-name>
+* [[quickfix]]
 
 
 :messages
@@ -150,21 +126,30 @@ see previous messages
 :help channel
 info on Vim's job control
 
+:help cmdline-special
+
+:!patch % break-things.diff
+apply a patch on current file
 
 
-fzf
-:FZF : open fzf picker interface
-<C-c> : exit fzf picker interface
-<C-v> : opens file in vertical split
-<C-x> : open in horizontal split
-<C-t> : open in new tab
-<C-k/j> : change selection
 
 == navigating help ==
 :help user-manual
 <C-]> : visit hyperlink
 <C-o> : go back
 
+== ex command ==
+ex, short of EXtended, is a line editor for Unix systems.
+Line editor: In computing, a line editor is a text editor in which each editing command applies to one or more lines of text designated by the user.
+ex was eventually given a full-screen visual interface (adding to its command line oriented operation), thereby becoming the vi text editor.
+"ex mode" is invoked by typing the : (colon).
+Core ex commands: search, replace
+(source: Wikipedia)
+
+
+= options =
+use :set option? to check the value of an option,
+use :verbose set option? to also see where it was last set.
 
 == Sources ==
 https://statico.github.io/vim3.html
@@ -173,7 +158,7 @@ http://vimcasts.org/episodes/packages/
 https://vimways.org/2018/the-power-of-diff/
 https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/
 https://www.blaenkdenum.com/posts/a-simpler-vim-statusline/
-
+https://github.com/romainl/idiomatic-vimrc
 
 = pending reads =
 https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language
