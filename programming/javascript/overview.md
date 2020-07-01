@@ -1,17 +1,38 @@
 = javascript =
+- Released in 1995
+- European Computer Manufacturers Association (ECMA) in in charge of changes.
+- ES5 in 2009
+- ES2015 onwards yearly releases.
+- ESNext : Anything that’s part of the stage proposals
+  - Stage 0: newest proposals
+  - Stage 1
+  - Stage 2
+  - Stage 3
+  - Stage 4: finished proposals
 
-* [[JS_Arrays]]
-* [[JS_Function_Programming]]
-* [[JS_Object]]
+Browser Compatibility with JS: http://kangax.github.io/compat-table/esnext/
+
+
+* [[variables]]
 * [[JS_string]]
-* [[decorator]]
+* [[functions]]
+* [[JS_Object]]
+* [[JS_Arrays]]
+* [[classes]]
+
+* [[js_compilation]]
 * [[modules]]
+
+* [[JS_Function_Programming]]
+* [[decorator]]
 * [[transpilers]]
 * [[singleton]]
 * [[prototype]]
 * [[polyfills]]
-* [[async_js]] promises, observables
 * obj?.propName : safe navigation operator
+
+
+* [[async_js]] promises, observables, fetch
 
 * [[../nodejs/overview|nodejs]]
 * [[expressjs]]
@@ -21,12 +42,13 @@ https://www.prisma.io/
 * [[js_app_questions]]
 
 
+
 == flavors of javascript ==
 * [[ecmascript/overview|ecmascript]]
 * [[../typescript/overview|typescript]]
 * flow
 
-== user interface frameworks ==
+== frontend frameworks ==
 * [[../reactjs/overview|react]]
 * [[../angular/overview|angular]]
 * vue.js
@@ -74,7 +96,7 @@ https://blog.fullstacktraining.com/what-is-semantic-versioning/
 = minifiers, obfuscators =
 * UglifyJS
 * JSMin
-* Closure Compiler
+* Closure [[Compiler]]
 
 == testing libraries ==
 # unit tests

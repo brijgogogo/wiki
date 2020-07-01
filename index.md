@@ -22,11 +22,11 @@
 
 = wiki =
 * [[linux/overview|Linux]]
+* [[programming/overview|programming]]
+* [[editors/overview|editors]]
 * [[windows/overview|Windows]]
 * [[android/overview|Android]]
-* [[programming/overview|programming]]
 * [[networking]]
-* [[editors/overview|editors]]
 * [[browsers/overview|browsers]]
 * [[interview]]
 * [[image_resources]]
@@ -185,3 +185,127 @@ QEMU is the userspace utility that talks to this and emulates virtual hardware.
 
 
 https://www.okta.com/
+
+
+
+# cycle list
+Backpack Cover 15 to 30 L - Neon Yellow
+900 Bike Toolbox
+Front/Rear Bike Light Set ST 540 USB
+ST 100 Adult MTB Sunglasses Category 1 - Yellow
+900 Foot Pump Black
+900 L Bike Chain Lock
+
+Recreational Cycling Road Bike Triban RC520 (Disc Brakes)
+Recreational Cycling Road Bike Triban RC500 (Disc Brakes) - Black
+Mudguard
+
+
+
+# Short List
+Giant Contend 2 2020 (720 Euros) Claris, 28
+Giant Contend 1 2020 (859 Euros) Sora, 28
+Trek Domane AL 3 2020 (869 Euros) Sora, 28
+Cube Attain Pro 2020 (900 Euros) Sora, disc, Tyre?
+Fuji Sportif 2.1 (899) Sora, 30
+Scott Speedster 20 (999 Euros) Tiagra, 28
+Giant Contend AR 3 (1099 Euros) Sora, 32, disc
+Scott Speedster 10 (1099 Euros) SH 105, 28
+
+
+
+# REID Osprey Drop Bar (800 Euros, 2 years free service)
+https://www.cyclebike.ie/osprey-flatbar.html
+https://www.reidbikes.com/product/osprey/
+Shimano Claris R2000, 8-speed, Tyres 23
+
+
+# OSPREY ELITE (900 Euros)
+https://www.cyclebike.ie/reid-osprey-elite-dropbar-black-white.html?id=111076535&quantity=1
+https://www.reidbikes.com/product/osprey-elite/
+Shimano Sora, 9-speed, Tyres 23
+
+# GIANT CONTEND 2 2020 (720 Euros)
+http://www.belfieldbikeshop.com/bike-details/giant-contend-2-2020
+https://www.thebikeshop.ie/product/2020-contend-2/
+https://www.giant-bicycles.com/ie/contend-2
+Shimano Claris, Crankset FSA Tempo 34/50, Tyre 28, Frame ALUXX
+
+# GIANT CONTEND 1 2020 (859 Euros)
+https://www.giant-bicycles.com/ie/contend-1
+https://www.thebikeshop.ie/product/2020-contend-1/
+Shimano Sora, Crankset Shimano Sora 34/50, Tyre 28, Frame ALUXX, Brakes Tektro TK-B177
+
+# CAAD OPTIMO SORA 2019 (800 Euros)
+https://thebikerack.ie/collections/road-bikes/products/caad-optimo-sora-2019
+Shimano Sora, Tyre 25c
+
+# Cube Attain 2020 (750 Euros)
+https://www.buckleycycles.ie/products/cube-attain-2020
+https://www.theedge-sports.com/cycling-c18/bikes-c19/road-bikes-c20/cube-attain-pro-black-orange-2020-p26999?_sgm_campaign=scn_8066bf01b6000&_sgm_source=26999&_sgm_action=click
+Shimano Claris, Crankset  Shimano Claris 50x34, Tyre 25, Frame Aluminium 6061
+
+# Cube Attain Pro 2020 (900 Euros)
+https://www.buckleycycles.ie/products/cube-attain-pro-2020
+https://www.theedge-sports.com/cycling-c18/bikes-c19/road-bikes-c20/cube-attain-pro-black-orange-2020-p26999
+https://www.cyclesuperstore.ie/shop/pc/viewPrd.asp?idproduct=139811
+https://www.cube.eu/en/2020/bikes/road/road/attain/cube-attain-pro-blacknorange-2020/
+https://www.mycycle.ie/ProductDetails.asp?ProductCode=376200
+Shimano Sora, Disc Break, Frame Aluminium 6061, Crankset Shimano Sora 50x34T, 9.9KG
+
+
+# Trek Domane AL 2 2020 (690 Euros)
+https://www.theedge-sports.com/cycling-c18/bikes-c19/road-bikes-c20/trek-domane-al-2-2020-p22752
+https://www.trekbikes.com/ie/en_IE/bikes/road-bikes/performance-road-bikes/domane/domane-al/domane-al-2/p/23522/
+Tyres 28c, Shimano Claris R2000 Crack Shimano 50/34, 10.01 kg
+
+
+# Trek Domane AL 3 2020 (869 Euros)
+https://www.buckleycycles.ie/products/trek-domane-al-3-2020
+ https://www.trekbikes.com/ie/en_IE/bikes/road-bikes/performance-road-bikes/domane/domane-al/domane-al-3/p/23526/?colorCode=red
+Shimano Sora, Tyre 28c, Crank Shimano Sora, 9.75kg (125kg)
+
+
+
+# Giant Contend AR 3 (1099 Euros)
+tyres 32c, Shimano Sora, Disc brakes
+https://shop.base2race.ie/collections/gravel-bikes/products/giant-contend-ar-3?variant=30075468152866
+https://www.giant-bicycles.com/ie/contend-ar-3
+
+
+# Fuji Sportif 2.1 (899)
+https://www.bikesorbicycles.com/product/fuji-sportif-2-1/
+Shimano Sora, Tyres 30c
+
+# SCOTT SPEEDSTER 20 (999)
+Shimano Tiagra, Tyres 28c
+https://www.bikesorbicycles.com/product/scott-speedster-20/
+
+# SCOTT SPEEDSTER 10 (1099)
+https://www.bikesorbicycles.com/product/scott-speedster-10/
+Shimano 105, Tyres 28c
+
+
+https://shop.base2race.ie/pages/cycling
+= Brands =
+- Cannondale
+- Giant
+- Lapierre
+- Trek
+
+
+= Gears =
+Shimano Claris - 8 Speed
+Shimano Sora -   9 Speed
+Shimano Tiagra - 10 speed
+105            - 10 & 11 Speed
+Dura-ace, Ultegra - 11 speed
+
+
+= PC =
+- All Parts should be compatible with one another
+
+- CPUAMD Ryzen 7 3700X (30000)
+-
+
+

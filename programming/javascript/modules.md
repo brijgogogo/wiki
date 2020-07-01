@@ -1,4 +1,7 @@
 = modules =
+A JavaScript module is a piece of reusable code that can easily be incorporated into other JavaScript files without causing variable collisions. JavaScript modules are stored in separate files, one file per module.
+
+
 * [[IIFE]]
 * [[Revealing_Module_Pattern]]
 
@@ -12,7 +15,7 @@ Non-native formats (support not built into Javascript language):
 - [[System.register]]
 
 Native format:
-- [[ES2015]]
+- [[ES2015]] (ES6 Modules)
 
 
 == Module loaders ==

@@ -71,3 +71,5 @@ Program becomes very hard to understand and extremely dificult to maintain and m
 * monkey patch : to extend or modify supporting system software locally (affecting only the running instance of the program)
 
 * guerrilla patch: changing code sneakily, and possibly incompatibly with other such patches, at runtime.
+
+* orthogonal : different/ statistically independent (This is orthogonal to how Functional Programming approaches the same problem)

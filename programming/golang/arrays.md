@@ -9,6 +9,8 @@ a[0] = "Hello"
 
 var primes := [6]int{2,3,5,7,11,13}
 
+totals := [...]int{1, 2, 3}
+
 
 = slices =
 A slice is a dynamically-sized, flexible view into the elements of an array
@@ -38,6 +40,7 @@ a[0:10]
 a[:10]
 a[0:]
 a[:]
+- lower-bound is included, upper-bound is excluded
 
 # length - number of elements
 
@@ -56,7 +59,7 @@ fmt.Printf("%d", cap(s))
 # Nil slices - length and capacity zero (no underlying array)
 
 # dynamically sized array - make function - allocates a zeroed array, returns a slice that refers to that array
-a := make([]int, 5)   // len(a) = 5
+a := make([]int, 5)   // len(a) = 5           - makes slice
 b := make([]int, 0, 5) // len(b)=0, cap(b) = 5
 b := b[:cap(b)] // len(b) = 5, cap(b) = 5
 b := b[1:] // len(b) = 4, cap(b)=4

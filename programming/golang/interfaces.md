@@ -24,9 +24,18 @@ fmt.Printf("%v, %T", a, a)
 # empty interface - can hold values of any type
 var i interface{}
 
+- All types implement it
+
+theType := i.(type)
+
 
 # Type assertions - assigns underlying T value to the variable t
 t := i.(T) // if i is not a T, panic occurs
+
+var anything interface{} = "something"
+aString := anything.(string)
+aInt := anything.(int) // panic
+aInt, ok := anything.(int) // ok != nil
 
 
 t, ok := i.(T)

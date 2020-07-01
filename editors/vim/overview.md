@@ -147,6 +147,28 @@ Core ex commands: search, replace
 (source: Wikipedia)
 
 
+# Repeat Substitutions
+g& will repeat the last substitution you did, but for the whole file, whatever file you’re in at the moment.
+
+:& will repeat the last substitution on the line you are on but you get to change the flags if you want. So you can decide now to make it global with :&g.
+
+:&& will repeat the last substitution on the line you are on with the flags you used for that substitution.
+https://til.hashrocket.com/vim
+
+# go to last insert place
+gi
+`^ : go to ^ mark
+
+# <C-R><C-A>: when in command mode puts the word under cursor there
+
+# ct_ : change till underscore
+# cf_ : change from current to underscore
+# ciw : change in word
+
+# @: to repeat last vim command mode command (after that you can do @@ to continue the call to command)
+
+
+
 = options =
 use :set option? to check the value of an option,
 use :verbose set option? to also see where it was last set.

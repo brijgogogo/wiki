@@ -15,6 +15,18 @@ func main() {
   fmt.Println(v.Abs())
 }
 
+# Work on copy
+func (v Vertex) DoubleIt() int {
+  v.X = v.X * 2
+}
+// after the function is called v.X remains same
+
+# Work on reference
+
+func (v *Vertex) DoubleIt() int {
+  v.X = v.X * 2
+}
+// v.X gets doubled
 
 # Methods on non-struc types
 

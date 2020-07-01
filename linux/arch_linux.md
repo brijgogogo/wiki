@@ -27,6 +27,8 @@
 * date-time
 * [[time]]
 
+systemctl list-unit-files --type=service
+systemctl list-unit-files --state=enabled
 
 == using Arch ==
 * [[arch_file_system]]

@@ -25,5 +25,26 @@ Emits multiple values over time
 Cancellable
 Supports map, filter, reduce operators
 
+
+
+# fetch
+- Promise
+fetch("https://api.randomuser.me/?nat=US&results=1")
+  .then(res => res.json())
+  .then(json => json.results)
+  .then(console.log)
+  .catch(console.error);
+
+- async/await
+const getPersons = async () => {
+try {
+  let res = await fetch("url");
+  let { results } = res.json();
+  console.log(results);
+  } catch (error) {
+    console.error(error)
+  }
+}
+
 = sources =
 Reactive Programming with RxJS 5 - Sergi Mansilla
