@@ -14,3 +14,8 @@ Then press letter w to write table to disk and exit.
 # format new partition
 sudo mkfs.vfat /dev/sdb1
 sudo eject /dev/sdb
+
+
+# format to ntfs
+install ntfs-3g
+sudo mkntfs --fast --label myUsbDrive /dev/sdb1
